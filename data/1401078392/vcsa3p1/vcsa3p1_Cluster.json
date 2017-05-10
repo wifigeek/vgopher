@@ -1,0 +1,25 @@
+{
+  "timestamp": 1401078537,
+  "isceesx11": {
+    "overallstatus": "green",
+    "effectivecpu": 344088,
+    "effectivememory": 4090117,
+    "numeffectivehosts": 8,
+    "numhosts": 8,
+    "totalcpu": 383360,
+    "totalmemory": 4396780347392,
+    "vcenter": "vcsa3p1",
+    "vdatacenter": "isce_prod"
+  },
+  "isceesx13": {
+    "overallstatus": "green",
+    "effectivecpu": 172044,
+    "effectivememory": 2045634,
+    "numeffectivehosts": 4,
+    "numhosts": 4,
+    "totalcpu": 191680,
+    "totalmemory": 2198390177792,
+    "vcenter": "vcsa3p1",
+    "vdatacenter": "isce_prod"
+  }
+}

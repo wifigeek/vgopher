@@ -1,0 +1,861 @@
+# Logfile created on 2014-05-25 20:05:42 -0500 by logger.rb/31641
+I, [2014-05-25T20:06:46.643866 #12861]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcenter_name based on filterSpec
+I, [2014-05-25T20:06:47.893396 #12861]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T20:07:16.504750 #12925]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcenter_name based on filterSpec
+I, [2014-05-25T20:07:17.887737 #12925]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T20:13:37.757748 #13094]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcenter_name based on filterSpec
+I, [2014-05-25T20:13:38.998007 #13094]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T20:13:52.825538 #13156]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcenter_name based on filterSpec
+I, [2014-05-25T20:13:53.998050 #13156]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T20:18:10.670894 #13413]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcenter_name based on filterSpec
+I, [2014-05-25T20:18:12.501884 #13413]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T20:41:58.176351 #13643]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcenter_name based on filterSpec
+I, [2014-05-25T20:42:33.846904 #13643]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T20:42:34.072603 #13643]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - mule3sxa is not assigned to a portgroup
+W, [2014-05-25T20:42:34.073030 #13643]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ipap3s1 is not assigned to a portgroup
+W, [2014-05-25T20:42:34.153181 #13643]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - mule3s3qx is not assigned to a portgroup
+I, [2014-05-25T20:49:33.878906 #13889]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcenter_name based on filterSpec
+I, [2014-05-25T20:50:09.894254 #13889]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T20:50:10.020550 #13889]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - mule3sxa is not assigned to a portgroup
+W, [2014-05-25T20:50:10.020967 #13889]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ipap3s1 is not assigned to a portgroup
+W, [2014-05-25T20:50:10.084783 #13889]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - tcsv3s88p is not assigned to a portgroup
+I, [2014-05-25T20:51:14.770920 #14359]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcenter_name based on filterSpec
+I, [2014-05-25T20:51:49.253112 #14359]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T20:51:49.379572 #14359]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - mule3sxa is not assigned to a portgroup
+W, [2014-05-25T20:51:49.380005 #14359]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ipap3s1 is not assigned to a portgroup
+I, [2014-05-25T20:53:38.946915 #14507]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcenter_name based on filterSpec
+I, [2014-05-25T20:54:13.518154 #14507]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T20:54:13.644222 #14507]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - mule3sxa is not assigned to a portgroup
+W, [2014-05-25T20:54:13.644623 #14507]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ipap3s1 is not assigned to a portgroup
+I, [2014-05-25T21:11:08.126012 #15357]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcenter_name based on filterSpec
+I, [2014-05-25T21:11:42.908489 #15357]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:11:43.036876 #15357]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - mule3sxa is not assigned to a portgroup
+W, [2014-05-25T21:11:43.037354 #15357]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ipap3s1 is not assigned to a portgroup
+I, [2014-05-25T21:15:56.114494 #15568]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t1 based on filterSpec
+I, [2014-05-25T21:16:20.057680 #15568]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:16:20.413018 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - tufin13 is not assigned to a portgroup
+I, [2014-05-25T21:16:22.663613 #15568]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t2 based on filterSpec
+I, [2014-05-25T21:16:46.396220 #15568]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:16:46.486114 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - test03 is not assigned to a portgroup
+W, [2014-05-25T21:16:46.528269 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - tufin14 is not assigned to a portgroup
+I, [2014-05-25T21:16:48.459987 #15568]  INFO -- VcenterConnect#get_vcenter_data: gathering info from corpvcms11 based on filterSpec
+I, [2014-05-25T21:16:49.731727 #15568]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:16:49.859902 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpisilon11_3.0 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.860046 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcsso11 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.860150 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t2-2 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.860238 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss12-1 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.860361 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t2-1 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.860473 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvums11 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.860590 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpdcnm11 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.860697 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpssz11-2 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.860959 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t3-1 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.861072 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t3-2 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.862772 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss13-1 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.863689 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corparms11 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.863807 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t4-2 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.863892 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t4-1 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.863974 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpuims11 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.864054 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcms11 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.864137 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corparms12 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.864219 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t1-1 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.864298 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss11-1 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.864375 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcdb11 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.864462 #15568]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcinv11 is not assigned to a portgroup
+W, [2014-05-25T21:16:49.868407 #15568]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - corpesxamp11.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T21:16:49.872394 #15568]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - corpesxdmzt02a.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T21:16:52.623909 #15568]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3t1 based on filterSpec
+I, [2014-05-25T21:29:54.991951 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t1 based on filterSpec
+I, [2014-05-25T21:30:19.617912 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:30:19.971611 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - tufin13 is not assigned to a portgroup
+I, [2014-05-25T21:30:23.299240 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t2 based on filterSpec
+I, [2014-05-25T21:30:46.855053 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:30:46.943338 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - test03 is not assigned to a portgroup
+W, [2014-05-25T21:30:46.985580 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - tufin14 is not assigned to a portgroup
+I, [2014-05-25T21:30:49.083898 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from corpvcms11 based on filterSpec
+I, [2014-05-25T21:30:50.493018 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:30:50.494840 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpisilon11_3.0 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.494970 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcsso11 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.495079 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t2-2 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.495186 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss12-1 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.495302 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t2-1 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.495407 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvums11 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.495553 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpdcnm11 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.495662 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpssz11-2 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.495765 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t3-1 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.495948 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t3-2 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.496067 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss13-1 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.496347 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corparms11 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.496482 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t4-2 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.496605 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t4-1 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.496703 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpuims11 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.496815 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcms11 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.496911 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corparms12 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.497004 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t1-1 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.497095 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss11-1 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.497184 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcdb11 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.497281 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcinv11 is not assigned to a portgroup
+W, [2014-05-25T21:30:50.500917 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - corpesxamp11.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T21:30:50.505006 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - corpesxdmzt02a.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T21:30:52.497829 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3t1 based on filterSpec
+I, [2014-05-25T21:31:26.720959 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:31:26.848428 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - mule3sxa is not assigned to a portgroup
+W, [2014-05-25T21:31:26.848884 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ipap3s1 is not assigned to a portgroup
+I, [2014-05-25T21:31:29.582078 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3t2 based on filterSpec
+I, [2014-05-25T21:32:03.008739 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:32:03.225604 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx2-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T21:32:03.225873 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx6-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T21:32:03.225999 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx4-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T21:32:03.226111 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx8-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T21:32:03.226289 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - nagios-sl-6.4-10262013-vcsa3t2 is not assigned to a portgroup
+I, [2014-05-25T21:32:06.108468 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscevcms1 based on filterSpec
+I, [2014-05-25T21:32:09.709436 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:32:09.713420 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscedcnm1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.713544 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceuims1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.713642 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess4-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.713732 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.713846 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceisilon1_old datastore 2.1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.714055 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess4-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.714198 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t4-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.714280 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t4-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.714378 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T21:32:09.714457 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcsso1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.714558 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcms1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.714649 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevums1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.714723 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcinv1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.714824 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t1-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.714904 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t3-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715009 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t3-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715099 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715179 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcdb1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715300 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t1-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715379 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715457 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715544 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715630 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715732 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715811 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms2 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715886 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz1-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.715957 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T21:32:09.716028 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t2-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.716098 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz1-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.716167 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t2-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.716240 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T21:32:09.716318 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.716392 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T21:32:09.716464 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:09.716535 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T21:32:09.729633 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp1.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T21:32:09.732208 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp2.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T21:32:11.648825 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3p1 based on filterSpec
+I, [2014-05-25T21:32:19.684782 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T21:32:21.418058 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3p2 based on filterSpec
+I, [2014-05-25T21:32:30.687204 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T21:32:33.360175 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscevcms11 based on filterSpec
+I, [2014-05-25T21:32:35.410424 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:32:35.412191 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceisilon11 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.412353 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.412452 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscedcnm11 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.412593 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p1-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.412684 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p1-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.412890 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcms11 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.412979 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p2-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413070 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p2-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413142 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413213 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess11-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413293 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess11-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413363 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevums11 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413437 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcinv11 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413511 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcsso11 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413584 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms11 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413665 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz11-1 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413736 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms12 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413816 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcdb11 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413903 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceuims11.old is not assigned to a portgroup
+W, [2014-05-25T21:32:35.413999 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz11-2 is not assigned to a portgroup
+W, [2014-05-25T21:32:35.417453 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp12.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T21:32:35.420162 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp11.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T21:32:37.778085 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4t1 based on filterSpec
+I, [2014-05-25T21:33:14.584558 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T21:33:17.743699 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4t2 based on filterSpec
+I, [2014-05-25T21:34:07.577469 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T21:34:11.524609 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from isccvcms1 based on filterSpec
+I, [2014-05-25T21:34:13.739458 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:34:13.743786 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss3-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.743884 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccdcnm1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.743986 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.744084 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccisilon1_old datastore_2.1 don't power on is not assigned to a portgroup
+W, [2014-05-25T21:34:13.744332 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss4-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.744496 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t4-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.744590 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-2(clone don't power on) is not assigned to a portgroup
+W, [2014-05-25T21:34:13.744691 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims1old is not assigned to a portgroup
+W, [2014-05-25T21:34:13.744796 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcms1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.744895 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss2-1(clone don't power on) is not assigned to a portgroup
+W, [2014-05-25T21:34:13.744989 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t4-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.745080 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.745190 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.745283 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcinv1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.745379 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss3-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.745469 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccarms1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.745564 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss2-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.745654 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.745742 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss2-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.745841 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss4-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.745940 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-1(clone don't power on) is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746017 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t3-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746091 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcsso1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746169 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t3-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746243 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvums1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746320 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t2-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746393 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t1-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746467 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcdb1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746548 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz1-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746622 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t2-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746695 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t1-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.746774 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz1-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:13.761643 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp1.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T21:34:13.764745 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp2.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T21:34:15.971564 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4p1 based on filterSpec
+I, [2014-05-25T21:34:16.406860 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T21:34:18.329905 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4p2 based on filterSpec
+I, [2014-05-25T21:34:18.805499 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T21:34:21.522176 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from isccvcms11 based on filterSpec
+I, [2014-05-25T21:34:40.113336 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:34:40.183880 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.184015 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccisilon11_old datastore 2.1.0 don't power on is not assigned to a portgroup
+W, [2014-05-25T21:34:40.184101 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccdcnm11 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.215525 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2013-02-25 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.215787 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2013-10-01 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.215940 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2012-10-01 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.216174 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-07-25-2012 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.224371 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss11-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.224575 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcms11 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.224711 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims11.old is not assigned to a portgroup
+W, [2014-05-25T21:34:40.224868 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p1-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.224957 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p1-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225062 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccarms11 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225170 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcdb11 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225291 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss11-2-clone(do not power on) is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225387 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225480 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims11-clone is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225559 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcsso11 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225640 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p2-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225717 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p2-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225802 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss11-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225882 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz11-1 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.225976 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz11-2 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.226088 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvums11 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.226172 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcinv11 is not assigned to a portgroup
+W, [2014-05-25T21:34:40.299702 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp12.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T21:34:40.302248 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp11.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T21:34:41.608988 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5t1 based on filterSpec
+I, [2014-05-25T21:35:15.152311 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T21:35:17.289088 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5t2 based on filterSpec
+I, [2014-05-25T21:35:58.879269 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T21:36:01.122156 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscwvcms1 based on filterSpec
+I, [2014-05-25T21:36:03.528061 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:36:03.532460 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.532590 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwisilon1_old datastore 2.1 don't power on is not assigned to a portgroup
+W, [2014-05-25T21:36:03.532690 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss2-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.532798 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss4-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.532887 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss4-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533175 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t3-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533255 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t1-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533336 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t2-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533408 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz1-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533479 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss3-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533550 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz1-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533628 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwarms1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533728 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t4-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533820 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcms1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533921 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t3-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.533993 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t4-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534064 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534139 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcsso1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534213 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss1-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534283 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t1-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534354 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss3-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534424 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcinv1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534498 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss2-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534569 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwdcnm1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534640 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvums1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534714 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t2-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534789 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcdb1 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534867 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss1-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:03.534945 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims1old is not assigned to a portgroup
+W, [2014-05-25T21:36:03.538693 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp2.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T21:36:03.541428 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp1.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T21:36:05.278860 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5p1 based on filterSpec
+I, [2014-05-25T21:36:12.382126 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:36:12.405266 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - nagios-sl-6.4-10262013 is not assigned to a portgroup
+I, [2014-05-25T21:36:14.555773 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5p2 based on filterSpec
+I, [2014-05-25T21:36:21.851911 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T21:36:23.953494 #16463]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscwvcms11 based on filterSpec
+I, [2014-05-25T21:36:25.557129 #16463]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T21:36:25.558965 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.559089 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwdcnm11 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.559227 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-25T21:36:25.559321 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwarms12 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.559425 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcms11 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.559522 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p2-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.559609 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwisilon11_old datastore 2.1_don't power on is not assigned to a portgroup
+W, [2014-05-25T21:36:25.559711 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz11-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.559824 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p2-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.559904 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz11-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.560009 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwarms11 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.560110 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims11.old is not assigned to a portgroup
+W, [2014-05-25T21:36:25.560206 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvums11 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.560287 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcsso11 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.560378 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcinv11 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.560460 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p1-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.560555 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss11-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.560648 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p1-2 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.560735 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss11-1 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.560826 #16463]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcdb11 is not assigned to a portgroup
+W, [2014-05-25T21:36:25.573648 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp11.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T21:36:25.576327 #16463]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp12.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T22:30:32.920333 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t1 based on filterSpec
+I, [2014-05-25T22:31:03.097184 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:31:03.226770 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - tufin13 is not assigned to a portgroup
+I, [2014-05-25T22:31:05.793283 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t2 based on filterSpec
+I, [2014-05-25T22:31:32.038050 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:31:32.127427 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - test03 is not assigned to a portgroup
+W, [2014-05-25T22:31:32.169297 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - tufin14 is not assigned to a portgroup
+I, [2014-05-25T22:31:34.246921 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from corpvcms11 based on filterSpec
+I, [2014-05-25T22:31:35.666992 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:31:35.668854 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpisilon11_3.0 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.668969 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcsso11 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.669086 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t2-2 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.669193 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss12-1 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.669311 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t2-1 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.669395 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvums11 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.669482 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpdcnm11 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.669587 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpssz11-2 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.669664 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t3-1 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.669748 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t3-2 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.669841 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss13-1 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.669970 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corparms11 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.670057 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t4-2 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.670149 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t4-1 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.670241 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpuims11 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.670333 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcms11 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.670412 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corparms12 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.670491 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t1-1 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.670632 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss11-1 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.670709 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcdb11 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.670796 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcinv11 is not assigned to a portgroup
+W, [2014-05-25T22:31:35.674288 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - corpesxamp11.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T22:31:35.677743 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - corpesxdmzt02a.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T22:31:38.203533 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3t1 based on filterSpec
+I, [2014-05-25T22:32:12.940068 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:32:13.364464 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - mule3sxa is not assigned to a portgroup
+W, [2014-05-25T22:32:13.364902 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ipap3s1 is not assigned to a portgroup
+I, [2014-05-25T22:32:15.918164 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3t2 based on filterSpec
+I, [2014-05-25T22:33:15.403509 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:33:15.908654 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx2-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T22:33:15.909732 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx6-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T22:33:15.910104 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx4-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T22:33:15.910341 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx8-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T22:33:15.910667 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - nagios-sl-6.4-10262013-vcsa3t2 is not assigned to a portgroup
+I, [2014-05-25T22:33:17.921786 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscevcms1 based on filterSpec
+I, [2014-05-25T22:33:21.144068 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:33:21.148869 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscedcnm1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.148984 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceuims1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.149121 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess4-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.149220 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.149355 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceisilon1_old datastore 2.1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.149614 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess4-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.149778 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t4-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.149867 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t4-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.149949 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T22:33:21.150048 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcsso1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.150148 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcms1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.150243 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevums1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.150319 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcinv1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.150413 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t1-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.150505 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t3-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.150628 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t3-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.150714 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T22:33:21.150829 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcdb1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.150932 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t1-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151016 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151099 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151182 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151265 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151348 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151435 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms2 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151523 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz1-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151606 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151705 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t2-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151799 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz1-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151911 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t2-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.151995 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T22:33:21.152079 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.152163 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T22:33:21.152247 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:21.152330 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T22:33:21.166726 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp1.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T22:33:21.169613 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp2.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T22:33:23.619328 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3p1 based on filterSpec
+I, [2014-05-25T22:33:36.801603 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T22:33:39.102181 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3p2 based on filterSpec
+I, [2014-05-25T22:33:52.600399 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T22:33:54.312976 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscevcms11 based on filterSpec
+I, [2014-05-25T22:33:56.436110 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:33:56.437901 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceisilon11 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438060 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438140 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscedcnm11 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438264 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p1-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438335 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p1-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438430 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcms11 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438520 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p2-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438608 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p2-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438694 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438808 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess11-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438890 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess11-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.438980 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevums11 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.439070 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcinv11 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.439161 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcsso11 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.439252 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms11 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.439344 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz11-1 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.439436 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms12 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.439538 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcdb11 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.439617 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceuims11.old is not assigned to a portgroup
+W, [2014-05-25T22:33:56.439695 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz11-2 is not assigned to a portgroup
+W, [2014-05-25T22:33:56.443015 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp12.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T22:33:56.445634 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp11.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T22:33:58.256881 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4t1 based on filterSpec
+I, [2014-05-25T22:35:32.463715 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T22:35:35.066030 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4t2 based on filterSpec
+I, [2014-05-25T22:36:43.499154 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T22:36:45.898858 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from isccvcms1 based on filterSpec
+I, [2014-05-25T22:36:48.573820 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:36:48.578565 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss3-2 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.578666 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccdcnm1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.578788 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.578874 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccisilon1_old datastore_2.1 don't power on is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579107 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss4-1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579225 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t4-1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579296 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-2(clone don't power on) is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579412 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims1old is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579497 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcms1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579578 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss2-1(clone don't power on) is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579647 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t4-2 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579716 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-2 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579788 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579858 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcinv1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.579930 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss3-1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580006 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccarms1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580078 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss2-1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580146 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580217 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss2-2 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580284 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss4-2 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580352 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-1(clone don't power on) is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580426 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t3-1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580516 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcsso1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580613 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t3-2 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580682 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvums1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580753 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t2-2 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580826 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t1-1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580895 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcdb1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.580970 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz1-2 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.581038 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t2-1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.581105 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t1-2 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.581172 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz1-1 is not assigned to a portgroup
+W, [2014-05-25T22:36:48.594076 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp1.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T22:36:48.596687 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp2.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T22:36:51.059390 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4p1 based on filterSpec
+I, [2014-05-25T22:36:51.481711 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T22:36:54.354563 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4p2 based on filterSpec
+I, [2014-05-25T22:36:54.910933 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T22:36:56.930744 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from isccvcms11 based on filterSpec
+I, [2014-05-25T22:37:32.433621 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:37:32.480838 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.480992 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccisilon11_old datastore 2.1.0 don't power on is not assigned to a portgroup
+W, [2014-05-25T22:37:32.481102 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccdcnm11 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.509681 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2013-02-25 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.509897 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2013-10-01 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.510058 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2012-10-01 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.510234 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-07-25-2012 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.517341 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss11-2 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.517537 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcms11 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.517738 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims11.old is not assigned to a portgroup
+W, [2014-05-25T22:37:32.517830 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p1-1 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.517940 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p1-2 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.518061 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccarms11 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.518175 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcdb11 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.518282 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss11-2-clone(do not power on) is not assigned to a portgroup
+W, [2014-05-25T22:37:32.518371 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-25T22:37:32.518458 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims11-clone is not assigned to a portgroup
+W, [2014-05-25T22:37:32.518545 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcsso11 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.518630 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p2-2 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.518737 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p2-1 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.518901 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss11-1 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.518992 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz11-1 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.519073 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz11-2 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.519158 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvums11 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.519242 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcinv11 is not assigned to a portgroup
+W, [2014-05-25T22:37:32.643294 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp12.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T22:37:32.646165 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp11.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T22:37:34.170243 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5t1 based on filterSpec
+I, [2014-05-25T22:38:39.838206 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T22:38:42.035508 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5t2 based on filterSpec
+I, [2014-05-25T22:39:52.180020 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T22:39:54.760697 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscwvcms1 based on filterSpec
+I, [2014-05-25T22:39:57.502186 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:39:57.506087 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.506182 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwisilon1_old datastore 2.1 don't power on is not assigned to a portgroup
+W, [2014-05-25T22:39:57.506277 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss2-1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.506366 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss4-2 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.506454 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss4-1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.506712 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t3-1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.506810 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t1-2 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.506898 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t2-2 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.506977 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz1-2 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507089 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss3-1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507158 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz1-1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507235 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwarms1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507308 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t4-2 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507377 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcms1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507448 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t3-2 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507516 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t4-1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507585 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507657 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcsso1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507728 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss1-1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507801 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t1-1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507870 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss3-2 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.507937 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcinv1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.508008 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss2-2 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.508076 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwdcnm1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.508157 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvums1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.508231 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t2-1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.508300 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcdb1 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.508376 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss1-2 is not assigned to a portgroup
+W, [2014-05-25T22:39:57.508445 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims1old is not assigned to a portgroup
+W, [2014-05-25T22:39:57.512024 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp2.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T22:39:57.514584 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp1.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T22:39:59.362992 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5p1 based on filterSpec
+I, [2014-05-25T22:40:15.964660 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:40:15.986937 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - nagios-sl-6.4-10262013 is not assigned to a portgroup
+I, [2014-05-25T22:40:17.709243 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5p2 based on filterSpec
+I, [2014-05-25T22:40:26.587393 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T22:40:28.067227 #18237]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscwvcms11 based on filterSpec
+I, [2014-05-25T22:40:30.242942 #18237]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T22:40:30.244738 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.244871 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwdcnm11 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245022 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245101 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwarms12 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245174 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcms11 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245249 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p2-1 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245354 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwisilon11_old datastore 2.1_don't power on is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245428 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz11-1 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245496 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p2-2 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245565 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz11-2 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245633 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwarms11 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245704 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims11.old is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245777 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvums11 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245850 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcsso11 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245921 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcinv11 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.245992 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p1-1 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.246061 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss11-2 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.246128 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p1-2 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.246204 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss11-1 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.246272 #18237]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcdb11 is not assigned to a portgroup
+W, [2014-05-25T22:40:30.258592 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp11.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T22:40:30.261212 #18237]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp12.syncopatedtech.com be havin a problem with vnics
+E, [2014-05-25T22:51:41.422157 #19412] ERROR -- VcenterConnect#rescue in to_vcenter: InvalidLogin: Cannot complete login due to an incorrect user name or password. (RbVmomi::Fault)
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/connection.rb:61:in `parse_response'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/connection.rb:90:in `call'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/basic_types.rb:205:in `_call'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/basic_types.rb:74:in `block (2 levels) in init'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/vim.rb:38:in `block in connect'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/vim.rb:36:in `tap'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/vim.rb:36:in `connect'
+/home/rpannick/Desktop/vgopher/esxi/lib/vc_collect2.rb:47:in `to_vcenter'
+/home/rpannick/Desktop/vgopher/esxi/lib/vc_collect2.rb:25:in `to_vcenter'
+vgopher.rb:85:in `get_vcenter_data'
+vgopher.rb:107:in `block (2 levels) in <main>'
+vgopher.rb:106:in `each'
+vgopher.rb:106:in `block in <main>'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/line_collection.rb:62:in `block in each'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/line_collection.rb:60:in `each'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/line_collection.rb:60:in `each'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/lines.rb:117:in `each'
+vgopher.rb:105:in `<main>'
+E, [2014-05-25T23:23:58.864711 #20477] ERROR -- VcenterConnect#rescue in to_vcenter: undefined local variable or method `vc_user' for #<VcenterConnect:0x00000001871af8> (NameError)
+/home/rpannick/Desktop/vgopher/esxi/lib/vc_collect2.rb:44:in `to_vcenter'
+vgopher.rb:85:in `get_vcenter_data'
+vgopher.rb:109:in `block (2 levels) in <main>'
+vgopher.rb:108:in `each'
+vgopher.rb:108:in `block in <main>'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/line_collection.rb:62:in `block in each'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/line_collection.rb:60:in `each'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/line_collection.rb:60:in `each'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/lines.rb:117:in `each'
+vgopher.rb:107:in `<main>'
+E, [2014-05-25T23:25:28.183687 #20560] ERROR -- VcenterConnect#rescue in to_vcenter: InvalidLogin: Cannot complete login due to an incorrect user name or password. (RbVmomi::Fault)
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/connection.rb:61:in `parse_response'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/connection.rb:90:in `call'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/basic_types.rb:205:in `_call'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/basic_types.rb:74:in `block (2 levels) in init'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/vim.rb:38:in `block in connect'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/vim.rb:36:in `tap'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/rbvmomi-1.8.1/lib/rbvmomi/vim.rb:36:in `connect'
+/home/rpannick/Desktop/vgopher/esxi/lib/vc_collect2.rb:42:in `to_vcenter'
+vgopher.rb:85:in `get_vcenter_data'
+vgopher.rb:109:in `block (2 levels) in <main>'
+vgopher.rb:108:in `each'
+vgopher.rb:108:in `block in <main>'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/line_collection.rb:62:in `block in each'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/line_collection.rb:60:in `each'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/line_collection.rb:60:in `each'
+/home/rpannick/.rvm/gems/ruby-1.9.3-p545@esxi/gems/iniparse-1.3.2/lib/iniparse/lines.rb:117:in `each'
+vgopher.rb:107:in `<main>'
+I, [2014-05-25T23:26:35.096322 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t1 based on filterSpec
+I, [2014-05-25T23:27:02.824559 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:27:02.954715 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - tufin13 is not assigned to a portgroup
+I, [2014-05-25T23:27:05.298544 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t2 based on filterSpec
+I, [2014-05-25T23:27:33.519093 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:27:33.609744 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - test03 is not assigned to a portgroup
+W, [2014-05-25T23:27:33.654214 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - tufin14 is not assigned to a portgroup
+I, [2014-05-25T23:27:36.105478 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from corpvcms11 based on filterSpec
+I, [2014-05-25T23:27:37.872002 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:27:37.873855 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpisilon11_3.0 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.873956 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcsso11 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874046 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t2-2 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874131 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss12-1 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874215 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t2-1 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874300 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvums11 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874386 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpdcnm11 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874473 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpssz11-2 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874540 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t3-1 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874605 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t3-2 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874706 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss13-1 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874893 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corparms11 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.874979 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t4-2 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.875049 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t4-1 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.875118 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpuims11 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.875186 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcms11 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.875254 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corparms12 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.875322 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss0t1-1 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.875388 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpss11-1 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.875453 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcdb11 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.875525 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - corpvcinv11 is not assigned to a portgroup
+W, [2014-05-25T23:27:37.878874 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - corpesxamp11.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T23:27:37.882155 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - corpesxdmzt02a.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T23:27:39.598188 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3t1 based on filterSpec
+I, [2014-05-25T23:28:13.699277 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:28:13.834263 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - mule3sxa is not assigned to a portgroup
+W, [2014-05-25T23:28:13.834701 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ipap3s1 is not assigned to a portgroup
+I, [2014-05-25T23:28:16.550279 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3t2 based on filterSpec
+I, [2014-05-25T23:28:50.230429 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:28:50.437123 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx2-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T23:28:50.437875 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx6-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T23:28:50.438002 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx4-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T23:28:50.438258 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceesx8-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-25T23:28:50.438442 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - nagios-sl-6.4-10262013-vcsa3t2 is not assigned to a portgroup
+I, [2014-05-25T23:28:52.703458 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscevcms1 based on filterSpec
+I, [2014-05-25T23:28:55.227672 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:28:55.232725 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscedcnm1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.232832 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceuims1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.232913 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess4-2 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.232984 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.233062 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceisilon1_old datastore 2.1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.233289 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess4-1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.233428 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t4-2 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.233504 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t4-1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.233608 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T23:28:55.233693 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcsso1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.233800 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcms1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.233892 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevums1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.233983 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcinv1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234074 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t1-1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234162 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t3-2 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234250 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t3-1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234328 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234423 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcdb1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234522 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t1-2 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234603 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234693 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess2-2 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234767 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-2 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234838 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234908 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.234980 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms2 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.235053 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz1-2 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.235123 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T23:28:55.235193 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t2-2 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.235261 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz1-1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.235330 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3t2-1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.235400 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T23:28:55.235469 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-1 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.235539 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T23:28:55.235608 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess3-2 is not assigned to a portgroup
+W, [2014-05-25T23:28:55.235677 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess1-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-25T23:28:55.249907 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp1.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T23:28:55.252667 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp2.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T23:28:56.929984 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3p1 based on filterSpec
+I, [2014-05-25T23:29:04.330333 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T23:29:06.121401 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3p2 based on filterSpec
+I, [2014-05-25T23:29:13.560412 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T23:29:15.547679 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscevcms11 based on filterSpec
+I, [2014-05-25T23:29:17.739699 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:29:17.741451 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceisilon11 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.741620 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.741715 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscedcnm11 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.741836 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p1-2 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.741917 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p1-1 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742010 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcms11 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742106 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p2-2 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742199 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss3p2-1 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742284 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742383 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess11-2 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742489 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscess11-1 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742559 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevums11 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742631 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcinv11 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742702 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcsso11 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742778 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms11 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742851 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz11-1 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742919 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscearms12 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.742990 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscevcdb11 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.743064 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isceuims11.old is not assigned to a portgroup
+W, [2014-05-25T23:29:17.743132 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscessz11-2 is not assigned to a portgroup
+W, [2014-05-25T23:29:17.746648 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp12.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T23:29:17.749429 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isceesxamp11.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T23:29:19.498710 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4t1 based on filterSpec
+I, [2014-05-25T23:29:54.751613 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T23:29:57.028739 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4t2 based on filterSpec
+I, [2014-05-25T23:30:33.128493 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T23:30:35.165652 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from isccvcms1 based on filterSpec
+I, [2014-05-25T23:30:37.223941 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:30:37.227972 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss3-2 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.228084 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccdcnm1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.228188 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.228289 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccisilon1_old datastore_2.1 don't power on is not assigned to a portgroup
+W, [2014-05-25T23:30:37.228542 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss4-1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.228669 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t4-1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.228746 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-2(clone don't power on) is not assigned to a portgroup
+W, [2014-05-25T23:30:37.228838 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims1old is not assigned to a portgroup
+W, [2014-05-25T23:30:37.228922 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcms1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.229039 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss2-1(clone don't power on) is not assigned to a portgroup
+W, [2014-05-25T23:30:37.229130 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t4-2 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.229234 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-2 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.229336 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.229438 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcinv1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.229552 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss3-1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.229654 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccarms1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.229750 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss2-1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.229850 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.229972 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss2-2 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230058 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss4-2 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230145 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss1-1(clone don't power on) is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230231 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t3-1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230301 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcsso1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230370 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t3-2 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230437 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvums1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230507 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t2-2 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230573 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t1-1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230640 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcdb1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230713 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz1-2 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230785 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t2-1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230853 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4t1-2 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.230919 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz1-1 is not assigned to a portgroup
+W, [2014-05-25T23:30:37.244236 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp1.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T23:30:37.246798 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp2.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T23:30:39.135709 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4p1 based on filterSpec
+I, [2014-05-25T23:30:39.650982 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T23:30:41.256051 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4p2 based on filterSpec
+I, [2014-05-25T23:30:41.745543 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T23:30:43.214694 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from isccvcms11 based on filterSpec
+I, [2014-05-25T23:31:00.338669 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:31:00.385721 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.385869 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccisilon11_old datastore 2.1.0 don't power on is not assigned to a portgroup
+W, [2014-05-25T23:31:00.385970 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccdcnm11 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.574511 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2013-02-25 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.574785 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2013-10-01 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.574937 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2012-10-01 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.575069 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-07-25-2012 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.582248 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss11-2 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.582386 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcms11 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.582518 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims11.old is not assigned to a portgroup
+W, [2014-05-25T23:31:00.582626 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p1-1 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.582721 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p1-2 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.582959 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccarms11 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583067 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcdb11 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583177 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss11-2-clone(do not power on) is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583273 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583369 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccuims11-clone is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583463 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcsso11 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583545 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p2-2 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583622 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss4p2-1 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583699 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccss11-1 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583781 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz11-1 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583859 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccssz11-2 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.583956 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvums11 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.584053 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - isccvcinv11 is not assigned to a portgroup
+W, [2014-05-25T23:31:00.660573 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp12.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T23:31:00.663338 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - isccesxamp11.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T23:31:02.255265 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5t1 based on filterSpec
+I, [2014-05-25T23:31:34.816443 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T23:31:37.266550 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5t2 based on filterSpec
+I, [2014-05-25T23:32:11.554410 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T23:32:13.886123 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscwvcms1 based on filterSpec
+I, [2014-05-25T23:32:16.531307 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:32:16.535623 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.535743 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwisilon1_old datastore 2.1 don't power on is not assigned to a portgroup
+W, [2014-05-25T23:32:16.535868 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss2-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.535940 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss4-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.536010 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss4-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.536276 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t3-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.536349 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t1-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.536464 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t2-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.536545 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz1-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.536641 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss3-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.536721 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz1-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.536910 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwarms1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537018 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t4-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537092 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcms1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537174 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t3-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537253 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t4-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537342 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537416 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcsso1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537489 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss1-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537561 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t1-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537631 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss3-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537700 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcinv1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537779 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss2-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537850 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwdcnm1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.537922 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvums1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.538011 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5t2-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.538111 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcdb1 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.538188 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss1-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:16.538258 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims1old is not assigned to a portgroup
+W, [2014-05-25T23:32:16.542172 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp2.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T23:32:16.545160 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp1.test.syncopatedtech.com be havin a problem with vnics
+I, [2014-05-25T23:32:18.963841 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5p1 based on filterSpec
+I, [2014-05-25T23:32:28.780252 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:32:28.803002 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - nagios-sl-6.4-10262013 is not assigned to a portgroup
+I, [2014-05-25T23:32:30.625660 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5p2 based on filterSpec
+I, [2014-05-25T23:32:39.590280 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-25T23:32:41.172251 #20676]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscwvcms11 based on filterSpec
+I, [2014-05-25T23:32:43.561838 #20676]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+W, [2014-05-25T23:32:43.563677 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.563790 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwdcnm11 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.563913 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-25T23:32:43.563999 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwarms12 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564078 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcms11 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564159 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p2-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564238 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwisilon11_old datastore 2.1_don't power on is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564316 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz11-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564392 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p2-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564467 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwssz11-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564560 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwarms11 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564657 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwuims11.old is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564750 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvums11 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564852 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcsso11 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.564948 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcinv11 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.565045 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p1-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.565130 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss11-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.565224 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - ss5p1-2 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.565316 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwss11-1 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.565409 #20676]  WARN -- VcenterConnect#rescue in block in virt_machine_output: undefined method `[]' for nil:NilClass - iscwvcdb11 is not assigned to a portgroup
+W, [2014-05-25T23:32:43.577726 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp11.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-25T23:32:43.580313 #20676]  WARN -- VcenterConnect#rescue in block in hostsystem_output: undefined method `portKey' for nil:NilClass - iscwesxamp12.syncopatedtech.com be havin a problem with vnics

@@ -1,0 +1,47 @@
+{
+  "timestamp": 1401078697,
+  "iscwesx6": {
+    "overallstatus": "green",
+    "effectivecpu": 344088,
+    "effectivememory": 4087173,
+    "numeffectivehosts": 8,
+    "numhosts": 8,
+    "totalcpu": 383360,
+    "totalmemory": 4396780355584,
+    "vcenter": "vcsa5t2",
+    "vdatacenter": "iscw_test"
+  },
+  "iscwesx2": {
+    "overallstatus": "green",
+    "effectivecpu": 344088,
+    "effectivememory": 4087367,
+    "numeffectivehosts": 8,
+    "numhosts": 8,
+    "totalcpu": 383360,
+    "totalmemory": 4396780355584,
+    "vcenter": "vcsa5t2",
+    "vdatacenter": "iscw_test"
+  },
+  "iscwesx8": {
+    "overallstatus": "green",
+    "effectivecpu": 344088,
+    "effectivememory": 4084810,
+    "numeffectivehosts": 8,
+    "numhosts": 8,
+    "totalcpu": 383360,
+    "totalmemory": 4396789301248,
+    "vcenter": "vcsa5t2",
+    "vdatacenter": "iscw_test"
+  },
+  "iscwesx4": {
+    "overallstatus": "green",
+    "effectivecpu": 344088,
+    "effectivememory": 4087991,
+    "numeffectivehosts": 8,
+    "numhosts": 8,
+    "totalcpu": 383360,
+    "totalmemory": 4396781473792,
+    "vcenter": "vcsa5t2",
+    "vdatacenter": "iscw_test"
+  }
+}

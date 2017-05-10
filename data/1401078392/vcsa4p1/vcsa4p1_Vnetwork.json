@@ -1,0 +1,28 @@
+{
+  "timestamp": 1401078639,
+  "ss4p1": {
+    "uuid": "ed b7 21 50 f4 b2 61 6b-86 96 c8 79 14 2d 78 17",
+    "portgroups": [
+      "VMWARE9_VLAN258",
+      "VMWARE10_VLAN259",
+      "PRODVLAN_220",
+      "PRODVLAN_253",
+      "Unused_Or_Quarantine_Veth",
+      "Unused_Or_Quarantine_Uplink",
+      "Vblock_ESX_VMOTION",
+      "Vblock_ESX_NFS-Fab-A",
+      "PRODVLAN_252",
+      "PRODVLAN_251",
+      "PRODVLAN_250",
+      "ISCC_HAG_PGMT_VLAN299",
+      "VBLOCK_ESX_MGMT",
+      "VMWARE7_VLAN256",
+      "VMWARE8_VLAN257",
+      "VEM-UPLINK",
+      "PRODVLAN_254",
+      "PRODVLAN_255"
+    ],
+    "vcenter": "vcsa4p1",
+    "vdatacenter": "iscc_prod"
+  }
+}

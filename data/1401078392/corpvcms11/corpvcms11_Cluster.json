@@ -1,0 +1,25 @@
+{
+  "timestamp": 1401078456,
+  "corpesxamp10": {
+    "overallstatus": "red",
+    "effectivecpu": 0,
+    "effectivememory": 0,
+    "numeffectivehosts": 0,
+    "numhosts": 1,
+    "totalcpu": 31992,
+    "totalmemory": 103010689024,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1"
+  },
+  "corpesxdmzt02": {
+    "overallstatus": "green",
+    "effectivecpu": 26050,
+    "effectivememory": 92757,
+    "numeffectivehosts": 1,
+    "numhosts": 1,
+    "totalcpu": 29988,
+    "totalmemory": 103042613248,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1"
+  }
+}

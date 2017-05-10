@@ -1,0 +1,1307 @@
+{
+  "timestamp": 1401078532,
+  "iscedcnm1": {
+    "name": "iscedcnm1",
+    "overallstatus": "green",
+    "numcpu": 2,
+    "memoryallocated": 8192,
+    "hostmemoryusage": 8256,
+    "guestmemoryusage": 655,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.34",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOn",
+    "uptime": 8677344,
+    "guestdisk": {
+      "C:\\": [
+        40046936064,
+        64422408192
+      ],
+      "D:\\": [
+        39799648256,
+        53683941376
+      ]
+    },
+    "host": "isceesxamp2",
+    "locationid": "564d36e5-795a-5f2c-6083-4d88d0f57298",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 40723630864,
+    "unsharedstorage": 40723630864
+  },
+  "isceuims1": {
+    "name": "isceuims1",
+    "overallstatus": "green",
+    "numcpu": 2,
+    "memoryallocated": 16384,
+    "hostmemoryusage": 16444,
+    "guestmemoryusage": 655,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.33",
+    "os": "SUSE Linux Enterprise 11 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsUnmanaged",
+    "powerstate": "poweredOn",
+    "uptime": 8629548,
+    "guestdisk": {
+      "/": [
+        174120800256,
+        200915521536
+      ],
+      "/boot": [
+        116269056,
+        135378944
+      ]
+    },
+    "host": "isceesxamp2",
+    "locationid": "564d33ef-650e-33c4-39d3-730bd7410568",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 76643199738,
+    "unsharedstorage": 76643199738
+  },
+  "iscess4-2": {
+    "name": "iscess4-2",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 1300,
+    "guestmemoryusage": 92,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": "Other Linux (64-bit)",
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 8674748,
+    "guestdisk": {
+    },
+    "host": "isceesxamp2",
+    "locationid": "564dc0bf-9bab-2be3-8f25-6d4a7a275e4c",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 542421644,
+    "unsharedstorage": 542421644
+  },
+  "insightiq_3.0": {
+    "name": "insightiq_3.0",
+    "overallstatus": "green",
+    "numcpu": 2,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 1317,
+    "guestmemoryusage": 286,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.60",
+    "os": "CentOS 4/5/6 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOn",
+    "uptime": 775310,
+    "guestdisk": {
+      "/": [
+        1225265152,
+        2432610304
+      ],
+      "/boot": [
+        226740224,
+        253869056
+      ],
+      "/datastore": [
+        67447095296,
+        67635785728
+      ]
+    },
+    "host": "isceesxamp1",
+    "locationid": "564d27bc-ff9e-6c68-85f2-b97645026925",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 6874588016,
+    "unsharedstorage": 6874588016
+  },
+  "isceisilon1_old datastore 2.1": {
+    "name": "isceisilon1_old datastore 2.1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 2048,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.60",
+    "os": "Ubuntu Linux (32-bit)",
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+      "/datastore": [
+        36090712064,
+        62994481152
+      ]
+    },
+    "host": "isceesxamp1",
+    "locationid": "564d0d54-405d-9c88-9287-0090a88b613d",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 31820281779,
+    "unsharedstorage": 31820281779
+  },
+  "iwsvap302": {
+    "name": "iwsvap302",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 4005,
+    "guestmemoryusage": 163,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.253.24",
+    "os": "Other 2.6.x Linux (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsUnmanaged",
+    "powerstate": "poweredOn",
+    "uptime": 12646767,
+    "guestdisk": {
+      "/": [
+        787759104,
+        1040080896
+      ],
+      "/os_conf": [
+        123155456,
+        129977344
+      ],
+      "/usr": [
+        977903616,
+        2080194560
+      ],
+      "/var": [
+        300950437888,
+        303420686336
+      ],
+      "/boot": [
+        87545856,
+        103512064
+      ]
+    },
+    "host": "isceesxdmzt01c",
+    "locationid": "564d7214-7a67-374b-197e-a6587eda837d",
+    "portgroup": "VBLOCK_DMZ_VMWARE2",
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 15974746336,
+    "unsharedstorage": 15974746336
+  },
+  "iwsvap301": {
+    "name": "iwsvap301",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 3930,
+    "guestmemoryusage": 122,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.252.24",
+    "os": "Other 2.6.x Linux (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsUnmanaged",
+    "powerstate": "poweredOn",
+    "uptime": 12646678,
+    "guestdisk": {
+      "/": [
+        787755008,
+        1040080896
+      ],
+      "/usr": [
+        978264064,
+        2080194560
+      ],
+      "/var": [
+        301008736256,
+        303420686336
+      ],
+      "/os_conf": [
+        123155456,
+        129977344
+      ],
+      "/boot": [
+        87546880,
+        103512064
+      ]
+    },
+    "host": "isceesxdmzt01a",
+    "locationid": "564d3b6f-2fdf-c4cc-c6ee-8ed7750e253d",
+    "portgroup": "VBLOCK_DMZ_VMWARE1",
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 16206856680,
+    "unsharedstorage": 16206856680
+  },
+  "iwsvah301": {
+    "name": "iwsvah301",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 4005,
+    "guestmemoryusage": 286,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.252.22",
+    "os": "Other 2.6.x Linux (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsUnmanaged",
+    "powerstate": "poweredOn",
+    "uptime": 12646783,
+    "guestdisk": {
+      "/": [
+        787759104,
+        1040080896
+      ],
+      "/os_conf": [
+        123155456,
+        129977344
+      ],
+      "/usr": [
+        978784256,
+        2080194560
+      ],
+      "/var": [
+        301038280704,
+        303420686336
+      ],
+      "/boot": [
+        87544832,
+        103512064
+      ]
+    },
+    "host": "isceesxdmzt01c",
+    "locationid": "564d6879-920a-0188-0d30-c7bd0031961f",
+    "portgroup": "VBLOCK_DMZ_VMWARE1",
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 15745387078,
+    "unsharedstorage": 15745387078
+  },
+  "iwsvah302": {
+    "name": "iwsvah302",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 3922,
+    "guestmemoryusage": 245,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.253.22",
+    "os": "Other 2.6.x Linux (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsUnmanaged",
+    "powerstate": "poweredOn",
+    "uptime": 12646677,
+    "guestdisk": {
+      "/": [
+        787759104,
+        1040080896
+      ],
+      "/os_conf": [
+        123155456,
+        129977344
+      ],
+      "/usr": [
+        979632128,
+        2080194560
+      ],
+      "/var": [
+        301029400576,
+        303420686336
+      ],
+      "/boot": [
+        87544832,
+        103512064
+      ]
+    },
+    "host": "isceesxdmzt01a",
+    "locationid": "564d90c2-a48d-691c-1ad2-b9c07a609d8c",
+    "portgroup": "VBLOCK_DMZ_VMWARE2",
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 15858859861,
+    "unsharedstorage": 15858859861
+  },
+  "iwsvar301": {
+    "name": "iwsvar301",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 4005,
+    "guestmemoryusage": 163,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.252.23",
+    "os": "Other 2.6.x Linux (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsUnmanaged",
+    "powerstate": "poweredOn",
+    "uptime": 12646744,
+    "guestdisk": {
+      "/": [
+        787759104,
+        1040080896
+      ],
+      "/os_conf": [
+        123155456,
+        129977344
+      ],
+      "/usr": [
+        981327872,
+        2080194560
+      ],
+      "/var": [
+        301004259328,
+        303420686336
+      ],
+      "/boot": [
+        87544832,
+        103512064
+      ]
+    },
+    "host": "isceesxdmzt01b",
+    "locationid": "564dd380-8735-8af5-86b4-ef3b58703a3f",
+    "portgroup": "VBLOCK_DMZ_VMWARE1",
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 16227927332,
+    "unsharedstorage": 16227927332
+  },
+  "iwsvar302": {
+    "name": "iwsvar302",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 4005,
+    "guestmemoryusage": 163,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.253.23",
+    "os": "Other 2.6.x Linux (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsUnmanaged",
+    "powerstate": "poweredOn",
+    "uptime": 12646664,
+    "guestdisk": {
+      "/": [
+        787759104,
+        1040080896
+      ],
+      "/os_conf": [
+        123155456,
+        129977344
+      ],
+      "/usr": [
+        978821120,
+        2080194560
+      ],
+      "/var": [
+        301063569408,
+        303420686336
+      ],
+      "/boot": [
+        87542784,
+        103512064
+      ]
+    },
+    "host": "isceesxdmzt01a",
+    "locationid": "564dea5a-b268-9628-2aad-96660057f8b0",
+    "portgroup": "VBLOCK_DMZ_VMWARE2",
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 16086642469,
+    "unsharedstorage": 16086642469
+  },
+  "iscess4-1": {
+    "name": "iscess4-1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": "564d3a35-ade9-8193-e288-4fdbeeadb365",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 3221361989,
+    "unsharedstorage": 3221361989
+  },
+  "iwsva301": {
+    "name": "iwsva301",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 3922,
+    "guestmemoryusage": 163,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.252.20",
+    "os": "Other 2.6.x Linux (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsUnmanaged",
+    "powerstate": "poweredOn",
+    "uptime": 12683306,
+    "guestdisk": {
+      "/": [
+        787677184,
+        1040080896
+      ],
+      "/var": [
+        301012369408,
+        303420686336
+      ],
+      "/os_conf": [
+        123155456,
+        129977344
+      ],
+      "/usr": [
+        976117760,
+        2080194560
+      ],
+      "/boot": [
+        87546880,
+        103512064
+      ]
+    },
+    "host": "isceesxdmzt01a",
+    "locationid": "564dddae-0c95-dd05-8db4-7837859b5a70",
+    "portgroup": "VBLOCK_DMZ_VMWARE1",
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 26215815597,
+    "unsharedstorage": 26215815597
+  },
+  "iwsva302": {
+    "name": "iwsva302",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 4003,
+    "guestmemoryusage": 204,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.252.21",
+    "os": "Other 2.6.x Linux (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsUnmanaged",
+    "powerstate": "poweredOn",
+    "uptime": 12646796,
+    "guestdisk": {
+      "/": [
+        787677184,
+        1040080896
+      ],
+      "/usr": [
+        977788928,
+        2080194560
+      ],
+      "/var": [
+        300741615616,
+        303420686336
+      ],
+      "/os_conf": [
+        123155456,
+        129977344
+      ],
+      "/boot": [
+        87544832,
+        103512064
+      ]
+    },
+    "host": "isceesxdmzt01b",
+    "locationid": "564db8e3-b295-727c-23bb-9ede5903df5a",
+    "portgroup": "VBLOCK_DMZ_VMWARE1",
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 23638150723,
+    "unsharedstorage": 23638150723
+  },
+  "ss3t4-2": {
+    "name": "ss3t4-2",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 742,
+    "guestmemoryusage": 153,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 206636,
+    "guestdisk": {
+    },
+    "host": "isceesxamp2",
+    "locationid": "564d35e4-ff02-3ac4-6112-a821fcc52692",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 496284067,
+    "unsharedstorage": 496284067
+  },
+  "ss3t4-1": {
+    "name": "ss3t4-1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 1041,
+    "guestmemoryusage": 307,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 206596,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": "564d3e5c-0f99-c757-5aa6-52bcd9b294a0",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 470040989,
+    "unsharedstorage": 470040989
+  },
+  "iscess2-1 clone(don't power on)": {
+    "name": "iscess2-1 clone(don't power on)",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": null,
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 349778476,
+    "unsharedstorage": 349778476
+  },
+  "iscevcsso1": {
+    "name": "iscevcsso1",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 8192,
+    "hostmemoryusage": 8264,
+    "guestmemoryusage": 655,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.71",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOn",
+    "uptime": 4581665,
+    "guestdisk": {
+      "C:\\": [
+        41249710080,
+        64422408192
+      ],
+      "D:\\": [
+        61039763456,
+        64421359616
+      ]
+    },
+    "host": "isceesxamp1",
+    "locationid": "564deaed-693c-c5b6-5964-dc6f01a8079a",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 52627008351,
+    "unsharedstorage": 52627008351
+  },
+  "iscevcms1": {
+    "name": "iscevcms1",
+    "overallstatus": "green",
+    "numcpu": 2,
+    "memoryallocated": 12288,
+    "hostmemoryusage": 12369,
+    "guestmemoryusage": 1720,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.23",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOn",
+    "uptime": 8658450,
+    "guestdisk": {
+      "D:\\": [
+        60783230976,
+        64421359616
+      ],
+      "C:\\": [
+        33383256064,
+        96528756736
+      ]
+    },
+    "host": "isceesxamp1",
+    "locationid": "564debdf-fb78-1506-d406-e77166b6204a",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 101461743608,
+    "unsharedstorage": 101461743608
+  },
+  "iscevums1": {
+    "name": "iscevums1",
+    "overallstatus": "green",
+    "numcpu": 2,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 4142,
+    "guestmemoryusage": 532,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.24",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOn",
+    "uptime": 8671609,
+    "guestdisk": {
+      "D:\\": [
+        37309894656,
+        96633614336
+      ],
+      "C:\\": [
+        48833818624,
+        85791338496
+      ]
+    },
+    "host": "isceesxamp1",
+    "locationid": "564dc9f4-e022-a0c5-9250-a37c11b0639c",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 113479764163,
+    "unsharedstorage": 113479764163
+  },
+  "iscevcinv1": {
+    "name": "iscevcinv1",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 14336,
+    "hostmemoryusage": 14429,
+    "guestmemoryusage": 286,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.72",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOn",
+    "uptime": 8635262,
+    "guestdisk": {
+      "C:\\": [
+        66944389120,
+        96633614336
+      ],
+      "D:\\": [
+        82175619072,
+        96633614336
+      ]
+    },
+    "host": "isceesxamp1",
+    "locationid": "564d598d-9a8a-8a74-73da-d6f0124a843a",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 130615942395,
+    "unsharedstorage": 130615942395
+  },
+  "ss3t1-1": {
+    "name": "ss3t1-1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 915,
+    "guestmemoryusage": 184,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 206503,
+    "guestdisk": {
+    },
+    "host": "isceesxamp2",
+    "locationid": "564d2e19-a35b-205e-7827-2c8f9cd04aa8",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 507789468,
+    "unsharedstorage": 507789468
+  },
+  "ss3t3-2": {
+    "name": "ss3t3-2",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 846,
+    "guestmemoryusage": 30,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 206584,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": "564dfcf4-1a02-626a-ad57-cafa6ba7ecb7",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 477409702,
+    "unsharedstorage": 477409702
+  },
+  "ss3t3-1": {
+    "name": "ss3t3-1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 1065,
+    "guestmemoryusage": 153,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 206587,
+    "guestdisk": {
+    },
+    "host": "isceesxamp2",
+    "locationid": "564da35c-948c-e7ef-97e3-d9521002854f",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 471089563,
+    "unsharedstorage": 471089563
+  },
+  "iscess2-2 clone(don't power on)": {
+    "name": "iscess2-2 clone(don't power on)",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": null,
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 339153452,
+    "unsharedstorage": 339153452
+  },
+  "iscevcdb1": {
+    "name": "iscevcdb1",
+    "overallstatus": "green",
+    "numcpu": 4,
+    "memoryallocated": 12288,
+    "hostmemoryusage": 12374,
+    "guestmemoryusage": 245,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.28",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOn",
+    "uptime": 16025309,
+    "guestdisk": {
+      "G:\\": [
+        113277992960,
+        171795480576
+      ],
+      "H:\\": [
+        270924054528,
+        343594172416
+      ],
+      "I:\\": [
+        65497792512,
+        171795480576
+      ],
+      "C:\\": [
+        28007849984,
+        64316502016
+      ],
+      "D:\\": [
+        38218870784,
+        42946523136
+      ],
+      "X:\\": [
+        337739415552,
+        343594233856
+      ],
+      "M:\\": [
+        41802473472,
+        42946523136
+      ],
+      "F:\\": [
+        167998513152,
+        171795542016
+      ]
+    },
+    "host": "isceesxamp2",
+    "locationid": "564d2f16-7e78-80cb-5985-7e6f9f338ba8",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 776011675633,
+    "unsharedstorage": 776011675633
+  },
+  "ss3t1-2": {
+    "name": "ss3t1-2",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 813,
+    "guestmemoryusage": 30,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 206532,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": "564dfb0c-ccc1-0e5d-425e-cb4116e4380e",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 492089762,
+    "unsharedstorage": 492089762
+  },
+  "iscess2-1": {
+    "name": "iscess2-1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "isceesxamp2",
+    "locationid": "564dd9a5-7f61-42fb-3bd8-327398bccf8c",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 724462631,
+    "unsharedstorage": 724462631
+  },
+  "iscess2-2": {
+    "name": "iscess2-2",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 1329,
+    "guestmemoryusage": 92,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": "Other Linux (64-bit)",
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 8674928,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": "564d1aa2-c064-150e-92e4-d56dd4f680fb",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 1879865758,
+    "unsharedstorage": 1879865758
+  },
+  "iscess1-2": {
+    "name": "iscess1-2",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": "Other Linux (64-bit)",
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": "564d800a-cdb3-d00a-2443-144215afb993",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 857818340,
+    "unsharedstorage": 857818340
+  },
+  "iscess1-1": {
+    "name": "iscess1-1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 1095,
+    "guestmemoryusage": 92,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 8675216,
+    "guestdisk": {
+    },
+    "host": "isceesxamp2",
+    "locationid": "564d69d4-6d1d-3058-431d-47119f93d79f",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 2053135808,
+    "unsharedstorage": 2053135808
+  },
+  "iscearms1": {
+    "name": "iscearms1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 16384,
+    "hostmemoryusage": 16127,
+    "guestmemoryusage": 3604,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.29",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOn",
+    "uptime": 8677962,
+    "guestdisk": {
+      "D:\\": [
+        105138012160,
+        128845869056
+      ],
+      "C:\\": [
+        37292912640,
+        85791338496
+      ]
+    },
+    "host": "isceesxamp1",
+    "locationid": "564d1769-63d8-f62a-bce4-ff52ed409d9f",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 90418536870,
+    "unsharedstorage": 90418536870
+  },
+  "iscearms2": {
+    "name": "iscearms2",
+    "overallstatus": "green",
+    "numcpu": 2,
+    "memoryallocated": 16384,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.182.162.30",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+      "C:\\": [
+        31580794880,
+        64422408192
+      ],
+      "D:\\": [
+        126240931840,
+        128845869056
+      ]
+    },
+    "host": "isceesxamp1",
+    "locationid": "",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 19392575416,
+    "unsharedstorage": 19392575416
+  },
+  "iscessz1-2": {
+    "name": "iscessz1-2",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 866,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 8674665,
+    "guestdisk": {
+    },
+    "host": "isceesxamp2",
+    "locationid": "564d2286-72e4-5608-d2b9-8c34be835d42",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 887075192,
+    "unsharedstorage": 887075192
+  },
+  "iscess3-2 clone(don't power on)": {
+    "name": "iscess3-2 clone(don't power on)",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": null,
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 304091692,
+    "unsharedstorage": 304091692
+  },
+  "ss3t2-2": {
+    "name": "ss3t2-2",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 714,
+    "guestmemoryusage": 92,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 206566,
+    "guestdisk": {
+    },
+    "host": "isceesxamp2",
+    "locationid": "564d42ad-f6df-83ef-332b-b271d9d2ef5f",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 489992620,
+    "unsharedstorage": 489992620
+  },
+  "iscessz1-1": {
+    "name": "iscessz1-1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 928,
+    "guestmemoryusage": 61,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": "Other Linux (64-bit)",
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 8674746,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": "564db537-e948-0440-cf51-cfc42930d9cf",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 892272566,
+    "unsharedstorage": 892272566
+  },
+  "ss3t2-1": {
+    "name": "ss3t2-1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 919,
+    "guestmemoryusage": 215,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 206529,
+    "guestdisk": {
+    },
+    "host": "isceesxamp2",
+    "locationid": "564d252e-263f-40d6-4d90-5d6d5a0da6f3",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 473186514,
+    "unsharedstorage": 473186514
+  },
+  "iscess1-1 clone(don't power on)": {
+    "name": "iscess1-1 clone(don't power on)",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": null,
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 516969197,
+    "unsharedstorage": 516969197
+  },
+  "iscess3-1": {
+    "name": "iscess3-1",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 1082,
+    "guestmemoryusage": 61,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": "Other Linux (64-bit)",
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 8674871,
+    "guestdisk": {
+    },
+    "host": "isceesxamp2",
+    "locationid": "564d7ef7-c7bc-5812-a26e-9aadc9f717f9",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 1849576499,
+    "unsharedstorage": 1849576499
+  },
+  "iscess3-1 clone(don't power on)": {
+    "name": "iscess3-1 clone(don't power on)",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": null,
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 303731139,
+    "unsharedstorage": 303731139
+  },
+  "iscess3-2": {
+    "name": "iscess3-2",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": "Other Linux (64-bit)",
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": "564da675-5bcb-6db4-8a82-30fdd72f62f1",
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 714009533,
+    "unsharedstorage": 714009533
+  },
+  "iscess1-2 clone(don't power on)": {
+    "name": "iscess1-2 clone(don't power on)",
+    "overallstatus": "green",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "isceesxamp1",
+    "locationid": null,
+    "portgroup": null,
+    "vcenter": "iscevcms1",
+    "vdatacenter": "isce_test",
+    "usedstorage": 530485997,
+    "unsharedstorage": 530485997
+  }
+}

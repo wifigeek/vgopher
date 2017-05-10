@@ -1,0 +1,49 @@
+{
+  "timestamp": 1401078537,
+  "migration": {
+    "uuid": "5e 12 03 50 db 5a e3 fc-31 4b 47 15 20 7a bb d1",
+    "portgroups": [
+      "251",
+      "252",
+      "220",
+      "250",
+      "256",
+      "255",
+      "Migration-DVUplinks-45",
+      "258",
+      "257",
+      "254",
+      "Vblock_ESX_VMOTION (1)",
+      "253",
+      "VBLOCK_ESX_MGMT (1)",
+      "Vblock_ESX_NFS-Fab-A (1)"
+    ],
+    "vcenter": "vcsa3p1",
+    "vdatacenter": "isce_prod"
+  },
+  "ss3p1": {
+    "uuid": "57 8a 03 50 2b 48 57 ac-80 07 c6 31 3f 6c 88 27",
+    "portgroups": [
+      "VMWARE10_VLAN259",
+      "PRODVLAN_220",
+      "VMWARE9_VLAN258",
+      "VEM-UPLINK",
+      "ISCE_HAG_PGMT_VLAN299",
+      "Vblock_ESX_NFS-Fab-A",
+      "Unused_Or_Quarantine_Veth",
+      "Unused_Or_Quarantine_Uplink",
+      "VMWARE8_VLAN257",
+      "VMWARE7_VLAN256",
+      "PRODVLAN_255",
+      "PRODVLAN_254",
+      "VBLOCK_ESX_MGMT",
+      "PRODVLAN_252",
+      "PRODVLAN_253",
+      "Vblock_ESX_VMOTION",
+      "PRODVLAN_250",
+      "PRODVLAN_251"
+    ],
+    "vcenter": "vcsa3p1",
+    "vdatacenter": "isce_prod"
+  }
+}

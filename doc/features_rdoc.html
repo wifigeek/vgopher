@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>features - vgopher v0.1</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/darkfish.js"></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./README_rdoc.html">README</a>
+  
+    <li><a href="./TODO_rdoc.html">TODO</a>
+  
+    <li><a href="./features_rdoc.html">features</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page features.rdoc">
+
+<h1 id="label-cli+interface+for+esxi">cli interface for esxi<span><a href="#label-cli+interface+for+esxi">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>pull data from each datacenter</p>
+
+<p>map devices from vm to hardware</p>
+
+<p>cross reference puppet, ipcmdb to match data</p>
+
+<p>refer to nagios - qubertdb for host/service issues</p>
+
+<p>refer to ipkm/wiki for docs related to device/service</p>
+
+<p>-mem/cpu/disk analysis to better size vms get better stats on actual mem
+usage per vm. right now is top heavy and wasteful.</p>
+
+<p>esxi built in capability to handle jvm heap <a
+href="http://pubs.vmware.com/vfabric52/index.jsp#em4j/about.html">pubs.vmware.com/vfabric52/index.jsp#em4j/about.html</a>
+set thresholds on garbage collection times</p>
+
+<p>reduce need for restarting services/vms  e.g. right now splunk service on a
+single host within the app cluster cannot be restarted without effecting
+the service. this is due to a memory issue. use esxi features todo auto gc
+and/or spawn additional vms as needed, destroy when not. a single host
+failure should never result in a clustered application failure. this
+defeats the purpose of the cluster.  if need be, services can be restarted
+via vsphere api. also, commands can be executed (i.e. dir listing, top,
+etc)</p>
+
+<p>better utilize resource pools to prevent overcommitting of resources;</p>
+
+<p>for “hotfix” situations, additional memory/cpu can be &#39;hot added&#39;.
+possibly disk too use resource pools to ensure the automated process of
+adding mem/cpu does not exceed thresholds esxi has features for handling
+load average issues, there should never be a ticket/alert for this.</p>
+
+<p>look to see if vms that have load avg/io issues not mem/cpu related can be
+moved to a datastore with less traffic esxi DRS is suppose to do this.</p>
+
+<p>this will also reduce swap issues. if a vm can expand vram on the fly, then
+it shouldn&#39;t need to use swap. even with all the fancy options for
+dealing with swap in esxi(basically housed on separate datastore, ideally
+ssd) swap is bad and should never happen.</p>
+
+<p>-easy access to related device info for a service/device issue e.g. slow
+performance on app, no apparent root cause - link to network info shows
+that portgroup is saturated - recommended action; move service/vm to less
+used portgroup/dvs</p>
+
+<p>-provide info to help analyze e.g. tcserver issue, provide wiki docs/open
+km link/vendor docs</p>
+
+<p>-reduce load on nagioss api call to vcenter has no impact on vcenter server
+load load on nagios can be reduced by just making a single api call to
+redis host without having to calculate results reduce the number of tickets
+e.g. datastore usage can be one alert/ticket based on datastore not host</p>
+
+<p>-ensure accurate data by comparing results from vcenter, puppet and ipcmdb.
+report any discrepancies</p>
+
+<p>-log analysis gather log info when issue occurs, use logstash/redis to pull
+more refined results search for docs/info related to key words in log
+relevant log entries can be formatted then attached to ticket. <a
+href="https://github.com/harrytruman/logstash-vmware">github.com/harrytruman/logstash-vmware</a></p>
+
+<p>-reduce redundancy many to many mapping of constant objects e.g instead of
+making a separate check call for each and every &#39;ci&#39;, make one call
+to fill &#39;object buckets&#39; and have those object buckets linked to
+individual resources. this way data that is common to &#39;ci&#39;s is
+stored in one location, then linked to the individual ci.</p>
+
+<p>instead of making a call to the datastore for every vm, make one call to
+the datastore then have vms reference the datastore object bucket to get
+values see folder_structure.dia</p>
+
+<p>-currently using redis to store object buckets, can be done w/o db</p>
+
+<p>this type of design will also make it easier to obtain data map common
+elements</p>
+
+<p>you dont need to know where the device is e.g. you need to check
+info/perf/stats on vmexample01.test.syncopatedtech.com right now you need
+to know what dc it is in as well as which vcenter server. then you have to
+log in to vsphere and search for the vm. this eats time. especially if you
+aren&#39;t familiar with the env. you could check puppet, but that also is
+a pain and that will only get you a location and facts, not perf/hardware
+info. this will work in the opposite direction by allowing to search for a
+vm, which will then give you its location. but then also be flexible to
+search by location if desired.</p>
+
+<p>-will provide central location for info.  think of an issue. think about
+how many different locations you have to visit to obtain info on the issue.
+now imagine being able to go to one location to reference all resources.
+saves time, provides faster response to issues</p>
+
+<p>e.g. report on tcserver</p>
+
+<p>service: tcserver function: vfabric something overall status: ok related
+devices: vm1, vm2, host1, cluster1, dc1, network1 devices with issues: vm2
+config files: oams.conf log files: /opt/tcserver/logs open tickets:
+12234234, 234342 related documents: doc_link1, doc_link2</p>
+
+<p>report on host1</p>
+
+<p>host: host1 (host stats from vcenter): ipaddr, mem/cpu/ds usage #of vms,
+cluster location, etc related devices: network, datastore,  open tickets:
+related docs: cmdb link: puppet facts:</p>
+
+<p>report on mem usage dc1</p>
+
+<p>allocated;  actual usage;  problem devices; link to fancy graphs; tickets
+related to mem usage;</p>
+
+<p>-graphite, statsd, etc</p>
+
+<p>reduce tickets by reducing alerts.</p>
+
+<p><a
+href="http://www.virtuallyghetto.com/2011/07/automating-new-integrated-vixguest.html">www.virtuallyghetto.com/2011/07/automating-new-integrated-vixguest.html</a></p>
+
+<p><a
+href="http://www.vmware.com/pdf/usenix_resource_mgmt.pdf">www.vmware.com/pdf/usenix_resource_mgmt.pdf</a></p>
+
+<p><a
+href="http://www.slideshare.net/alanrenouf/vsphere-apis-for-performance-monitoring">www.slideshare.net/alanrenouf/vsphere-apis-for-performance-monitoring</a></p>
+
+<p><a
+href="http://pubs.vmware.com/vsphere-51/index.jsp#com.vmware.wssdk.apiref.doc/right-pane.html">pubs.vmware.com/vsphere-51/index.jsp#com.vmware.wssdk.apiref.doc/right-pane.html</a></p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://rdoc.github.io/rdoc">RDoc</a> 5.0.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

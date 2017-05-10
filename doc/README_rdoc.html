@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>README - vgopher v0.1</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/darkfish.js"></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+<div class="nav-section">
+  <h3>Table of Contents</h3>
+
+  <ul class="link-list" role="directory">
+    <li><a href="#label-vgopher+v0.1">vgopher v0.1</a>
+    <li><a href="#label-overview+-26+usage">overview &amp; usage</a>
+  </ul>
+</div>
+
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./README_rdoc.html">README</a>
+  
+    <li><a href="./TODO_rdoc.html">TODO</a>
+  
+    <li><a href="./features_rdoc.html">features</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page README.rdoc">
+
+<h1 id="label-vgopher+v0.1">vgopher v0.1<span><a href="#label-vgopher+v0.1">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>This is written in 2014 for the purposes of gathering information from a
+large number of VMware ESXi hosts. This was to suppliment stats gathered
+from nagios (which would perodically crash due to the amount of info being
+processed). This information was then to be used in creation of automation
+scripts triggered by nagios alerts.</p>
+
+<p>While needing plenty of refactoring (and documentation), there are some
+potentional useful bits of code in here.</p>
+
+<p>Written in Ruby, with an api using Sinatra.</p>
+
+<h2 id="label-overview+-26+usage">overview &amp; usage<span><a href="#label-overview+-26+usage">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Core components of esxi are grouped into “Object Buckets”</p>
+
+<pre>Datacenter(vdc), Cluster, Host, Network(vnet), Datastore(vds), VirtualMachine(vm)</pre>
+
+<p>In a given bucket, there are the individual objects with assigned
+attributes. See: /usr/local/etc/vgopher/ohm_objects.rb</p>
+
+<p>Buckets may contain “collections”. These are references to other buckets
+that have related objects within them. For example, cluster01.example.com
+will contain a collection of hosts. If you want to return a list of hosts
+within that collection along with sensor info, the query would be;</p>
+
+<pre>api_host:9494/example_client/cluster/cluster01/hosts/sensors</pre>
+
+<p>object bucket; singular | collection; plural</p>
+
+<p>You always start with a client and an object bucket to search in. An object
+bucket must be followed by an object. If an object is followed by an
+attribute, the attribute values will be returned. If an obeject is followed
+by a collection, all objects in the collection are returned unless followed
+by another object or attribute. The chain stops at an attribute(s).</p>
+<ul><li>
+<p>an object can be anything, while a collection or an attribute are set
+variables.</p>
+</li></ul>
+
+<p>For example;</p>
+
+<pre>api_host:9494/example_client/vm/ipaddr =&gt; will return any virtual machine with &#39;ipaddr&#39; in the fqdn as opposed to all vms with ipaddress info
+
+api_host:9494/example_client/vdc/dc01/vms/ipaddr =&gt; will return all virtual machines, with ipaddress info, within datacenter01
+
+api_host:9494/example_client/host/host01/vms =&gt; will return all virtual machines on host01</pre>
+
+<p>An attribute may not be followed by anything other than an attribute;</p>
+
+<pre>api_host:9494/example_client/vm/vmname01/os/guestdisk/memoryusage =&gt; return os, disk and mem usage for a specific vm
+
+e.g. api_host:9494/example_client/host/host01/sensors/vms/mule =&gt; no worky</pre>
+
+<p>Avaiable object buckets:</p>
+
+<pre class="ruby"><span class="ruby-identifier">api_host</span><span class="ruby-operator">/</span><span class="ruby-identifier">example_client</span><span class="ruby-operator">/</span>(<span class="ruby-identifier">vdc</span><span class="ruby-operator">|</span><span class="ruby-identifier">cluster</span><span class="ruby-operator">|</span><span class="ruby-identifier">host</span><span class="ruby-operator">|</span><span class="ruby-identifier">vnet</span><span class="ruby-operator">|</span><span class="ruby-identifier">vds</span><span class="ruby-operator">|</span><span class="ruby-identifier">vm</span>)
+</pre>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://rdoc.github.io/rdoc">RDoc</a> 5.0.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

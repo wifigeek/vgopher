@@ -1,0 +1,475 @@
+# Logfile created on 2014-05-20 18:32:02 -0500 by logger.rb/31641
+I, [2014-05-20T18:32:02.600430 #15348]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t1 based on filterSpec
+I, [2014-05-20T18:32:37.520254 #15348]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+I, [2014-05-20T18:32:40.074598 #15348]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t2 based on filterSpec
+I, [2014-05-20T18:40:30.252134 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t1 based on filterSpec
+I, [2014-05-20T18:41:02.334518 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:41:02.461892 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:41:02.464024 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:41:02.478313 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:41:02.479441 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+W, [2014-05-20T18:41:02.485317 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - ampesx0t3.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-20T18:41:02.499827 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - ampesx0t1.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-20T18:41:02.512667 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - ampesx0t2.test.syncopatedtech.com be havin a problem with vnics
+D, [2014-05-20T18:41:03.647020 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:41:03.648184 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpss13-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:03.649435 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpssz11-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:03.650634 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpss12-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:03.651777 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpss11-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:03.654045 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t1-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:05.181550 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - tcsv1d9nj already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:41:05.182293 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - tufin13 is not assigned to a portgroup
+W, [2014-05-20T18:41:05.186742 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss10000000013 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:41:05.224134 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - devintentmgr already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:41:07.184841 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpdcnm11 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.186053 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpvcdb11 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.187234 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpss13-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.188392 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpvcsso11 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.189532 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corparms11 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.190651 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpvums11 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.191770 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t4-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.192877 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t1-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.193960 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t4-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.195071 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpss11-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.197646 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpisilon11_3.0 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.199280 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpuims11 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.200016 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - corpuims11 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:41:07.200657 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corparms12 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.201888 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t3-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.203041 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpssz11-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.204192 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t2-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.205352 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t2-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.206510 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t3-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.207614 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpss12-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.208832 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpvcinv11 is not assigned to a portgroup
+W, [2014-05-20T18:41:07.209988 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpvcms11 is not assigned to a portgroup
+I, [2014-05-20T18:41:09.026840 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa0t2 based on filterSpec
+I, [2014-05-20T18:41:40.509353 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:41:40.642863 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:41:40.645169 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+W, [2014-05-20T18:41:40.652792 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - templates_nfs001 already exists with id: 36
+W, [2014-05-20T18:41:40.653289 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - migration already exists with id: 37
+D, [2014-05-20T18:41:40.659582 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:41:40.660353 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:41:41.758717 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:41:42.285792 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - cde-ws08r2sp1-base-template-10-16-2012-vcsa0t2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:41:42.288098 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:41:43.160329 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - tufin14 is not assigned to a portgroup
+W, [2014-05-20T18:41:45.252356 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - test03 is not assigned to a portgroup
+W, [2014-05-20T18:41:45.254421 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vcenter55-dev already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:41:46.754555 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from corpvcms11 based on filterSpec
+I, [2014-05-20T18:41:48.836661 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:41:48.839972 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:41:48.841938 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+W, [2014-05-20T18:41:48.844742 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - amp_vc already exists with id: 69
+D, [2014-05-20T18:41:48.845546 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:41:48.846164 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+W, [2014-05-20T18:41:48.947930 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - corpesxamp11.test.syncopatedtech.com be havin a problem with vnics
+D, [2014-05-20T18:41:48.952624 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:41:48.953294 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpisilon11_3.0 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.957278 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpvcinv11 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.958523 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpvcdb11 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.959824 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpss11-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.961114 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t1-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.962425 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corparms12 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.963795 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpvcms11 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.965009 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpuims11 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.965647 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - corpuims11 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:41:48.966200 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t4-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.967400 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t4-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.968550 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corparms11 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.970101 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpss13-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.971364 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t3-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.972570 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t3-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.973755 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpssz11-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.975025 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpdcnm11 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.976947 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpvums11 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.978972 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t2-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.980660 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpss12-1 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.982793 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss0t2-2 is not assigned to a portgroup
+W, [2014-05-20T18:41:48.984184 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - corpvcsso11 is not assigned to a portgroup
+I, [2014-05-20T18:41:50.521474 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3t1 based on filterSpec
+I, [2014-05-20T18:42:35.479249 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:42:35.706268 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:42:35.709054 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:42:35.727878 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:42:35.728765 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:42:37.267900 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:42:38.255211 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa3t1 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:42:39.248788 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss30000000060 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:42:39.304910 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss30000000050 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:42:42.109698 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - ipmn30000000018 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:42:42.131905 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - mule3sxa is not assigned to a portgroup
+W, [2014-05-20T18:42:42.132534 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - mule3sxa already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:42:43.869183 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3t2 based on filterSpec
+I, [2014-05-20T18:43:27.770018 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:43:27.995978 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:43:27.998889 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+W, [2014-05-20T18:43:28.006516 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - templates_nfs001 already exists with id: 36
+W, [2014-05-20T18:43:28.007059 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - migration already exists with id: 37
+D, [2014-05-20T18:43:28.018680 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:43:28.019584 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:43:29.615220 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:43:30.413598 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - nagios-sl-6.4-10262013-vcsa3t2 is not assigned to a portgroup
+W, [2014-05-20T18:43:30.414270 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - nagios-sl-6.4-10262013-vcsa3t2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:30.417082 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - cde-ws08r2sp1-base-template-10-16-2012-vcsa3t2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:30.417894 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isceesx8-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-20T18:43:30.418448 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isceesx8-nagios-sl-6.4-10262013 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:30.419071 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isceesx4-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-20T18:43:30.419607 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isceesx4-nagios-sl-6.4-10262013 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:30.420282 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isceesx6-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-20T18:43:30.420882 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isceesx6-nagios-sl-6.4-10262013 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:30.423103 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa3t2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:30.424056 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isceesx2-nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-20T18:43:30.424626 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isceesx2-nagios-sl-6.4-10262013 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:31.620940 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss3i2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:31.627863 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - oams3ha already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:31.631741 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss3f2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:31.645257 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss3s3 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:31.650173 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - oams3h9 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:32.341643 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - gflo3h1g already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:34.614371 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - ipmn30000000015 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:43:36.234414 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscevcms1 based on filterSpec
+I, [2014-05-20T18:43:39.039437 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:43:39.046611 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:43:39.050249 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:43:39.052007 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:43:39.052555 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+W, [2014-05-20T18:43:39.056423 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - isceesxamp1.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-20T18:43:39.064561 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - isceesxamp2.test.syncopatedtech.com be havin a problem with vnics
+D, [2014-05-20T18:43:39.157597 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:43:39.158494 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isceisilon1_old datastore 2.1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.159993 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.161233 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess4-2 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.162351 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isceuims1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.163494 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscedcnm1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.167946 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess4-1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.178153 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess1-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-20T18:43:39.179437 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess3-2 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.180957 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess3-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-20T18:43:39.182304 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess3-1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.183557 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess1-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-20T18:43:39.185227 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3t2-1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.186701 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscessz1-1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.188533 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3t2-2 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.190514 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess3-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-20T18:43:39.191915 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscessz1-2 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.193356 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscearms2 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.194100 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - iscearms2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:39.194748 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscearms1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.195995 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess1-1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.198174 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess1-2 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.200619 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess2-2 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.201847 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess2-1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.203003 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3t1-2 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.204140 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscevcdb1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.205313 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess2-2 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-20T18:43:39.206372 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3t3-1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.207447 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3t3-2 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.208533 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3t1-1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.209754 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscevcinv1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.210963 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscevums1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.212123 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscevcms1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.213231 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscevcsso1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.214344 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess2-1 clone(don't power on) is not assigned to a portgroup
+W, [2014-05-20T18:43:39.215393 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3t4-1 is not assigned to a portgroup
+W, [2014-05-20T18:43:39.216835 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3t4-2 is not assigned to a portgroup
+I, [2014-05-20T18:43:40.743912 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3p1 based on filterSpec
+I, [2014-05-20T18:43:49.565424 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:43:49.593385 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:43:49.595009 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:43:49.606379 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:43:49.606889 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:43:50.177882 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:43:50.297056 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa3p1 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:50.428306 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss60000000080 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:50.802712 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - htest2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:50.803919 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - htest3 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:50.805110 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - htest1 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:50.806249 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - htest6 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:50.807378 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - htest7 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:50.808552 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - htest4 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:43:50.809699 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - w345tdtrurtyjthjwsew43 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:43:52.316737 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa3p2 based on filterSpec
+I, [2014-05-20T18:44:01.367169 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:44:01.396604 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:44:01.398120 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+W, [2014-05-20T18:44:01.405642 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - templates_nfs001 already exists with id: 36
+D, [2014-05-20T18:44:01.409158 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:44:01.409701 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:44:01.746037 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:44:02.266519 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - gfdf60000000030 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:44:02.270117 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - gfwg60000000028 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:44:04.187137 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscevcms11 based on filterSpec
+I, [2014-05-20T18:44:06.332582 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:44:06.334911 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:44:06.336582 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:44:06.339922 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:44:06.340426 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+W, [2014-05-20T18:44:06.432593 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - isceesxamp12.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-20T18:44:06.441067 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - isceesxamp11.syncopatedtech.com be havin a problem with vnics
+D, [2014-05-20T18:44:06.446272 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:44:06.446943 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscedcnm11 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.448147 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.452269 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isceisilon11 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.453327 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscessz11-2 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.454336 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isceuims11.old is not assigned to a portgroup
+W, [2014-05-20T18:44:06.455402 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscevcdb11 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.456620 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscearms12 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.457824 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscessz11-1 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.458827 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscearms11 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.459977 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscevcsso11 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.462001 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscevcinv11 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.463564 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscevums11 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.465111 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess11-1 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.466694 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscess11-2 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.468335 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isceuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-20T18:44:06.469594 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3p2-1 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.470815 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3p2-2 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.471998 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscevcms11 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.473109 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3p1-1 is not assigned to a portgroup
+W, [2014-05-20T18:44:06.474246 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss3p1-2 is not assigned to a portgroup
+I, [2014-05-20T18:44:08.125699 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4t1 based on filterSpec
+I, [2014-05-20T18:44:52.876325 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:44:53.052748 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:44:53.055051 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:44:53.073870 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:44:53.074765 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:44:54.639539 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:44:55.556590 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa4t1 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:44:56.867267 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss40000000040 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:44:56.878112 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss40000000050 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:44:56.933729 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss40000000060 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:45:00.219965 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - wsmq4i9 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:45:00.221741 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - mule4h2u already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:45:00.223379 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - mule4s1pn already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:45:01.806038 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4t2 based on filterSpec
+I, [2014-05-20T18:45:49.827676 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:45:49.998328 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:45:50.000749 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+W, [2014-05-20T18:45:50.008882 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - templates_nfs001 already exists with id: 36
+W, [2014-05-20T18:45:50.009448 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - migration already exists with id: 37
+D, [2014-05-20T18:45:50.019977 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:45:50.020789 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:45:51.582225 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:45:52.544897 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa4t2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:45:53.865997 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - lstest already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:45:53.887000 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - oams4hn already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:45:57.283415 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - mule4s1po already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:45:58.477166 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from isccvcms1 based on filterSpec
+I, [2014-05-20T18:46:00.849782 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:46:00.855717 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:46:00.859635 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:46:00.863286 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:46:00.863923 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+W, [2014-05-20T18:46:00.867811 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - isccesxamp1.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-20T18:46:00.877420 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - isccesxamp2.test.syncopatedtech.com be havin a problem with vnics
+D, [2014-05-20T18:46:00.985371 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:46:00.986103 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccisilon1_old datastore_2.1 don't power on is not assigned to a portgroup
+W, [2014-05-20T18:46:00.987408 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-20T18:46:00.988655 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccdcnm1 is not assigned to a portgroup
+W, [2014-05-20T18:46:00.989845 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss3-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:00.994442 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss4-1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.005075 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccssz1-1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.006166 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss4t1-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.007307 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss4t2-1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.008406 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccssz1-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.009440 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccvcdb1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.010490 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss4t1-1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.011586 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss4t2-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.014515 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccvums1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.016067 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss4t3-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.017865 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccvcsso1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.019690 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss4t3-1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.020983 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss1-1(clone don't power on) is not assigned to a portgroup
+W, [2014-05-20T18:46:01.021546 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isccss1-1(clone don't power on) already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:01.022096 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss4-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.023199 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss2-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.024229 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccuims1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.025437 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss2-1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.026634 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccarms1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.027730 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss3-1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.028813 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccvcinv1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.030082 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss1-1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.032249 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss1-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.034926 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss4t4-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.036449 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss2-1(clone don't power on) is not assigned to a portgroup
+W, [2014-05-20T18:46:01.037043 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isccss2-1(clone don't power on) already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:01.037540 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccvcms1 is not assigned to a portgroup
+W, [2014-05-20T18:46:01.038629 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccuims1old is not assigned to a portgroup
+W, [2014-05-20T18:46:01.039191 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isccuims1old already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:01.039667 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss1-2(clone don't power on) is not assigned to a portgroup
+W, [2014-05-20T18:46:01.040141 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isccss1-2(clone don't power on) already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:01.040694 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss4t4-1 is not assigned to a portgroup
+I, [2014-05-20T18:46:02.462088 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4p1 based on filterSpec
+I, [2014-05-20T18:46:02.696202 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:46:02.696374 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:46:02.696491 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:46:02.696612 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:46:02.696715 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:46:02.696795 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+I, [2014-05-20T18:46:04.297951 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa4p2 based on filterSpec
+I, [2014-05-20T18:46:04.888971 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:46:04.889150 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:46:04.889216 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:46:04.889269 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:46:04.889319 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:46:04.889377 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+I, [2014-05-20T18:46:06.200556 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from isccvcms11 based on filterSpec
+I, [2014-05-20T18:46:27.230659 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:46:27.291075 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:46:27.292543 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:46:27.311148 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:46:27.312423 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+W, [2014-05-20T18:46:28.043430 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - isccesxamp12.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-20T18:46:28.052907 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - isccesxamp11.syncopatedtech.com be havin a problem with vnics
+D, [2014-05-20T18:46:28.339973 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:46:28.340853 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccdcnm11 is not assigned to a portgroup
+W, [2014-05-20T18:46:28.342391 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccisilon11_old datastore 2.1.0 don't power on is not assigned to a portgroup
+W, [2014-05-20T18:46:28.343797 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-20T18:46:28.711939 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - cde-rhel6-base-template-2013-07-01 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:28.712784 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2013-02-25 is not assigned to a portgroup
+W, [2014-05-20T18:46:28.713412 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - cde-rhel6-base-template-2013-02-25 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:28.714238 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2013-10-01 is not assigned to a portgroup
+W, [2014-05-20T18:46:28.714840 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - cde-rhel6-base-template-2013-10-01 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:28.716138 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-2012-10-01 is not assigned to a portgroup
+W, [2014-05-20T18:46:28.716715 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - cde-rhel6-base-template-2012-10-01 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:28.717325 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - cde-rhel6-base-template-07-25-2012 is not assigned to a portgroup
+W, [2014-05-20T18:46:28.717890 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - cde-rhel6-base-template-07-25-2012 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:28.719121 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - cde-rhel6-base-template-2014-01-01 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:29.800549 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccavpcp007 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.808229 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccavpcp009 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.811047 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isccavpcp020 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:29.811692 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccvums11 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.813613 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss11-2-clone(do not power on) is not assigned to a portgroup
+W, [2014-05-20T18:46:29.814755 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isccss11-2-clone(do not power on) already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:29.815408 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccuims11.old is not assigned to a portgroup
+W, [2014-05-20T18:46:29.816099 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isccuims11.old already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:29.816705 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccvcdb11 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.818104 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss11-1 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.819422 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccss11-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.820717 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccssz11-2 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.822013 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccvcms11 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.823743 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccssz11-1 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.825335 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccuims11.syncopatedtech.com is not assigned to a portgroup
+W, [2014-05-20T18:46:29.827344 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccvcinv11 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.934485 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccarms11 is not assigned to a portgroup
+W, [2014-05-20T18:46:29.938045 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccuims11-clone is not assigned to a portgroup
+W, [2014-05-20T18:46:29.938887 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - isccuims11-clone already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:46:29.939442 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - isccvcsso11 is not assigned to a portgroup
+I, [2014-05-20T18:46:31.190723 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5t1 based on filterSpec
+I, [2014-05-20T18:47:15.422246 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:47:15.598509 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:47:15.601067 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:47:15.618614 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:47:15.619465 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:47:17.163494 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:47:18.141661 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa5t1 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:47:19.493060 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss50000000050 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:47:19.547753 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss50000000040 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:47:19.559990 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss50000000060 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:47:23.098954 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - wsvr50000000014 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:47:23.159278 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - ipmn50000000013 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:47:23.162117 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - ipmn50000000014 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:47:24.828010 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5t2 based on filterSpec
+I, [2014-05-20T18:48:09.543554 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:48:09.717895 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:48:09.720448 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+W, [2014-05-20T18:48:09.730018 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - templates_nfs001 already exists with id: 36
+W, [2014-05-20T18:48:09.730706 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - migration already exists with id: 37
+D, [2014-05-20T18:48:09.740310 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:48:09.741138 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:48:11.310600 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:48:12.376599 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa5t2 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:48:13.762902 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss5s1 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:48:17.660306 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - tcsv5s4bo already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:48:34.113668 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscwvcms1 based on filterSpec
+I, [2014-05-20T18:48:36.458429 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:48:36.464250 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:48:36.468551 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:48:36.471732 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:48:36.472339 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+W, [2014-05-20T18:48:36.638262 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - iscwesxamp2.test.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-20T18:48:36.647271 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - iscwesxamp1.test.syncopatedtech.com be havin a problem with vnics
+D, [2014-05-20T18:48:36.653303 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:48:36.654054 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwss2-1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.655364 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwisilon1_old datastore 2.1 don't power on is not assigned to a portgroup
+W, [2014-05-20T18:48:36.656949 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.674250 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwss4-1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.675537 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwss4-2 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.676795 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwuims1old is not assigned to a portgroup
+W, [2014-05-20T18:48:36.678648 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwss1-2 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.681571 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwvcdb1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.682890 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5t2-1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.684166 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwvums1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.685347 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwdcnm1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.686569 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwss2-2 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.687794 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwvcinv1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.688999 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwss3-2 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.690179 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5t1-1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.691465 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwss1-1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.692657 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwvcsso1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.694026 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwuims1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.695413 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5t4-1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.696736 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5t3-2 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.698742 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwvcms1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.700913 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5t4-2 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.702701 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwarms1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.704402 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwssz1-1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.706132 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwss3-1 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.707345 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwssz1-2 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.708525 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5t2-2 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.709758 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5t1-2 is not assigned to a portgroup
+W, [2014-05-20T18:48:36.710960 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5t3-1 is not assigned to a portgroup
+I, [2014-05-20T18:48:38.216493 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5p1 based on filterSpec
+I, [2014-05-20T18:48:46.925717 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:48:46.969044 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:48:46.973211 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:48:46.984113 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:48:46.984781 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:48:47.282978 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:48:47.729733 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - vdss80000000080 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:48:47.990703 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - gfdf80000000022 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:48:48.053111 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - nagios-sl-6.4-10262013 is not assigned to a portgroup
+W, [2014-05-20T18:48:48.053754 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - nagios-sl-6.4-10262013 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:48:49.394897 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from vcsa5p2 based on filterSpec
+I, [2014-05-20T18:48:58.361417 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:48:58.391969 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+D, [2014-05-20T18:48:58.393911 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+W, [2014-05-20T18:48:58.403453 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: url - templates_nfs001 already exists with id: 36
+D, [2014-05-20T18:48:58.406532 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:48:58.406993 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+D, [2014-05-20T18:48:58.742240 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:48:58.977866 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - gfdf80000000026 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:48:59.417715 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - gfdf80000000021 already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+I, [2014-05-20T18:49:01.462294 #16313]  INFO -- VcenterConnect#get_vcenter_data: gathering info from iscwvcms11 based on filterSpec
+I, [2014-05-20T18:49:03.256213 #16313]  INFO -- VcenterConnect#get_vcenter_data: results retrieved, sorting...
+D, [2014-05-20T18:49:03.258845 #16313] DEBUG -- VcenterConnect#build_tree: filling dvs values
+W, [2014-05-20T18:49:03.259984 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: uuid - migration already exists with id: 26
+D, [2014-05-20T18:49:03.260998 #16313] DEBUG -- VcenterConnect#build_tree: filling datastore values
+D, [2014-05-20T18:49:03.264453 #16313] DEBUG -- VcenterConnect#build_tree: filling cluster values
+D, [2014-05-20T18:49:03.264964 #16313] DEBUG -- VcenterConnect#build_tree: filling host values
+W, [2014-05-20T18:49:03.270120 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - iscwesxamp11.syncopatedtech.com be havin a problem with vnics
+W, [2014-05-20T18:49:03.279065 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `portKey' for nil:NilClass - iscwesxamp12.syncopatedtech.com be havin a problem with vnics
+D, [2014-05-20T18:49:03.371461 #16313] DEBUG -- VcenterConnect#build_tree: filling vms values
+W, [2014-05-20T18:49:03.372148 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwdcnm11 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.373563 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - insightiq_3.0 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.378323 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwvcdb11 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.379480 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwss11-1 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.380585 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5p1-2 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.381802 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwss11-2 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.383419 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5p1-1 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.384832 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwvcinv11 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.386152 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwvcsso11 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.387423 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwvums11 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.388599 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwuims11.old is not assigned to a portgroup
+W, [2014-05-20T18:49:03.389223 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: UniqueIndexViolation: locationid - iscwuims11.old already exists with id: 318 - avamarcombinedproxy-linux-sles11_64-7.0.101-61-vcsa0t1
+W, [2014-05-20T18:49:03.389769 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwarms11 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.391206 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwssz11-2 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.392338 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5p2-2 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.393566 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwssz11-1 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.394681 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwisilon11_old datastore 2.1_don't power on is not assigned to a portgroup
+W, [2014-05-20T18:49:03.395794 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - ss5p2-1 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.397166 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwvcms11 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.399329 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwarms12 is not assigned to a portgroup
+W, [2014-05-20T18:49:03.401488 #16313]  WARN -- VcenterConnect#rescue in block in build_tree: undefined method `[]' for nil:NilClass - iscwuims11.syncopatedtech.com is not assigned to a portgroup

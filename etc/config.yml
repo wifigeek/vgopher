@@ -1,0 +1,39 @@
+redis_stuff:
+  name: syncopatedtech
+  rsocketp: redis://127.0.0.1:6379/1
+  rsocketc: redis://127.0.0.1:8888/1
+datacenter:
+  corpesx1:
+    vcsa0t1: 10.252.165.210
+    vcsa0t2: 10.252.165.211
+    corpvcms11: 10.252.164.23
+  isce:
+    vcsa3t1: 10.182.163.210
+    vcsa3t2: 10.182.163.210
+    iscevcms1: 10.182.162.23
+    vcsa3p1: 10.182.34.200
+    vcsa3p2: 10.182.34.201
+    iscevcms11: 10.182.33.23
+  iscc:
+    vcas4t1: 10.190.163.210
+    vcsa4t2: 10.190.163.211
+    isccvcms1: 10.190.162.23
+    vcsa4p1: 10.190.34.200
+    vcsa4p2: 10.190.34.201
+    isccvcms11: 10.190.33.23
+  iscw:
+    vcas5t1: 10.192.163.210
+    vcsa5t2: 10.192.163.211
+    iscwvcms1: 10.192.162.23
+    vcsa5p1: 10.192.34.200
+    vcsa5p2: 10.192.34.201
+    iscwvcms11: 10.192.33.23
+vcenter_auth:
+  user: MGMT\STVCENTR
+  password: fpti@g5wNVzflW
+vcenter_tunnel: 
+  gateway: nagios48.syncopatedtech
+  user: bender
+  password: '@uT0MaT2'
+  localhost: 127.0.0.1
+  port: 2222

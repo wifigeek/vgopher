@@ -1,0 +1,126 @@
+=cli interface for esxi
+
+
+pull data from each datacenter
+
+map devices from vm to hardware
+
+cross reference puppet, ipcmdb to match data
+
+refer to nagios - qubertdb for host/service issues
+
+refer to ipkm/wiki for docs related to device/service
+
+
+-mem/cpu/disk analysis to better size vms
+get better stats on actual mem usage per vm. right now is top heavy and wasteful. 
+
+esxi built in capability to handle jvm heap
+http://pubs.vmware.com/vfabric52/index.jsp#em4j/about.html
+set thresholds on garbage collection times
+
+reduce need for restarting services/vms 
+e.g. right now splunk service on a single host within the app cluster cannot be restarted without effecting the service. this is due to a memory issue. use esxi features todo auto gc and/or spawn additional vms as needed, destroy when not. a single host failure should never result in a clustered application failure. this defeats the purpose of the cluster. 
+if need be, services can be restarted via vsphere api. also, commands can be executed (i.e. dir listing, top, etc)
+
+better utilize resource pools to prevent overcommitting of resources;
+
+for "hotfix" situations, additional memory/cpu can be 'hot added'. possibly disk too
+use resource pools to ensure the automated process of adding mem/cpu does not exceed thresholds
+esxi has features for handling load average issues, there should never be a ticket/alert for this. 
+
+look to see if vms that have load avg/io issues not mem/cpu related can be moved to a datastore with less traffic
+esxi DRS is suppose to do this.
+
+this will also reduce swap issues. if a vm can expand vram on the fly, then it shouldn't need to use swap. even with all the fancy options for dealing with swap in esxi(basically housed on separate datastore, ideally ssd) swap is bad and should never happen. 
+
+
+-easy access to related device info for a service/device issue
+e.g. slow performance on app, no apparent root cause - link to network info shows that portgroup is saturated - recommended action; move service/vm to less used portgroup/dvs
+
+
+-provide info to help analyze
+e.g. tcserver issue, provide wiki docs/open km link/vendor docs
+
+-reduce load on nagioss
+api call to vcenter has no impact on vcenter server load
+load on nagios can be reduced by just making a single api call to redis host without having to calculate results
+reduce the number of tickets e.g. datastore usage can be one alert/ticket based on datastore not host
+
+-ensure accurate data by comparing results from vcenter, puppet and ipcmdb. report any discrepancies
+
+-log analysis
+gather log info when issue occurs, use logstash/redis to pull more refined results
+search for docs/info related to key words in log
+relevant log entries can be formatted then attached to ticket.
+https://github.com/harrytruman/logstash-vmware
+
+
+-reduce redundancy
+many to many mapping of constant objects
+e.g instead of making a separate check call for each and every 'ci', make one call to fill 'object buckets' and have those object buckets linked to individual resources. this way data that is common to 'ci's is stored in one location, then linked to the individual ci.
+
+instead of making a call to the datastore for every vm, make one call to the datastore then have vms reference the datastore object bucket to get values
+see folder_structure.dia
+
+
+-currently using redis to store object buckets, can be done w/o db
+
+this type of design will also make it easier to obtain data
+map common elements
+
+you dont need to know where the device is
+e.g. you need to check info/perf/stats on vmexample01.test.syncopatedtech.com
+right now you need to know what dc it is in as well as which vcenter server. then you have to log in to vsphere and search for the vm. this eats time. especially if you aren't familiar with the env. you could check puppet, but that also is a pain and that will only get you a location and facts, not perf/hardware info. this will work in the opposite direction by allowing to search for a vm, which will then give you its location. but then also be flexible to search by location if desired. 
+
+-will provide central location for info. 
+think of an issue. think about how many different locations you have to visit to obtain info on the issue. now imagine being able to go to one location to reference all resources. saves time, provides faster response to issues
+
+
+e.g. report on tcserver
+
+service: tcserver
+function: vfabric something
+overall status: ok
+related devices: vm1, vm2, host1, cluster1, dc1, network1
+devices with issues: vm2
+config files: oams.conf
+log files: /opt/tcserver/logs
+open tickets: 12234234, 234342
+related documents: doc_link1, doc_link2
+
+
+report on host1
+
+host: host1
+(host stats from vcenter): ipaddr, mem/cpu/ds usage #of vms, cluster location, etc
+related devices: network, datastore, 
+open tickets:
+related docs:
+cmdb link:
+puppet facts: 
+
+
+report on mem usage dc1
+
+allocated; 
+actual usage; 
+problem devices;
+link to fancy graphs;
+tickets related to mem usage; 
+
+-graphite, statsd, etc
+
+reduce tickets by reducing alerts. 
+
+
+
+http://www.virtuallyghetto.com/2011/07/automating-new-integrated-vixguest.html
+
+http://www.vmware.com/pdf/usenix_resource_mgmt.pdf
+
+http://www.slideshare.net/alanrenouf/vsphere-apis-for-performance-monitoring
+
+http://pubs.vmware.com/vsphere-51/index.jsp#com.vmware.wssdk.apiref.doc/right-pane.html
+
+

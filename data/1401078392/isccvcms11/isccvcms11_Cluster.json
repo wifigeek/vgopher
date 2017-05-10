@@ -1,0 +1,69 @@
+{
+  "timestamp": 1401078643,
+  "isccesx11": {
+    "overallstatus": "green",
+    "effectivecpu": 344088,
+    "effectivememory": 4088675,
+    "numeffectivehosts": 8,
+    "numhosts": 8,
+    "totalcpu": 383360,
+    "totalmemory": 4396780355584,
+    "vcenter": "isccvcms11",
+    "vdatacenter": "iscc_prod"
+  },
+  "isccesxamp10": {
+    "overallstatus": "green",
+    "effectivecpu": 55508,
+    "effectivememory": 185624,
+    "numeffectivehosts": 2,
+    "numhosts": 2,
+    "totalcpu": 63984,
+    "totalmemory": 206021373952,
+    "vcenter": "isccvcms11",
+    "vdatacenter": "iscc_prod"
+  },
+  "isccesxdmzp01": {
+    "overallstatus": "green",
+    "effectivecpu": 78150,
+    "effectivememory": 278416,
+    "numeffectivehosts": 3,
+    "numhosts": 3,
+    "totalcpu": 89964,
+    "totalmemory": 309127839744,
+    "vcenter": "isccvcms11",
+    "vdatacenter": "iscc_prod"
+  },
+  "isccesx12": {
+    "overallstatus": "green",
+    "effectivecpu": 344088,
+    "effectivememory": 4088069,
+    "numeffectivehosts": 8,
+    "numhosts": 8,
+    "totalcpu": 383360,
+    "totalmemory": 4396780363776,
+    "vcenter": "isccvcms11",
+    "vdatacenter": "iscc_prod"
+  },
+  "isccesx14": {
+    "overallstatus": "green",
+    "effectivecpu": 172044,
+    "effectivememory": 2044961,
+    "numeffectivehosts": 4,
+    "numhosts": 4,
+    "totalcpu": 191680,
+    "totalmemory": 2198390177792,
+    "vcenter": "isccvcms11",
+    "vdatacenter": "iscc_prod"
+  },
+  "isccesx13": {
+    "overallstatus": "green",
+    "effectivecpu": 172044,
+    "effectivememory": 2045587,
+    "numeffectivehosts": 4,
+    "numhosts": 4,
+    "totalcpu": 191680,
+    "totalmemory": 2198390194176,
+    "vcenter": "isccvcms11",
+    "vdatacenter": "iscc_prod"
+  }
+}

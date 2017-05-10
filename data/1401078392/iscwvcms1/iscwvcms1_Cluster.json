@@ -1,0 +1,25 @@
+{
+  "timestamp": 1401078734,
+  "iscwesxamp0": {
+    "overallstatus": "green",
+    "effectivecpu": 57394,
+    "effectivememory": 186138,
+    "numeffectivehosts": 2,
+    "numhosts": 2,
+    "totalcpu": 63984,
+    "totalmemory": 206021365760,
+    "vcenter": "iscwvcms1",
+    "vdatacenter": "iscw_test"
+  },
+  "iscwesxdmzt01": {
+    "overallstatus": "green",
+    "effectivecpu": 78150,
+    "effectivememory": 278109,
+    "numeffectivehosts": 3,
+    "numhosts": 3,
+    "totalcpu": 89964,
+    "totalmemory": 309128540160,
+    "vcenter": "iscwvcms1",
+    "vdatacenter": "iscw_test"
+  }
+}

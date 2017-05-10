@@ -1,0 +1,67 @@
+{
+  "timestamp": 1401078643,
+  "migration-dvs": {
+    "uuid": "b2 7c 28 50 3f b8 83 19-1a 7a 12 05 48 8a b6 3f",
+    "portgroups": [
+      "MIGRATION-DVS-DVUplinks-43651",
+      "250",
+      "254",
+      "220",
+      "NFS",
+      "251",
+      "VMOTION",
+      "253",
+      "252",
+      "257",
+      "255",
+      "256",
+      "258",
+      "ESX_MGMT"
+    ],
+    "vcenter": "isccvcms11",
+    "vdatacenter": "iscc_prod"
+  },
+  "isccss11": {
+    "uuid": "33 03 28 50 a2 9c c7 98-7e fb 71 ef 84 13 3f 83",
+    "portgroups": [
+      "VMWARE10_VLAN259",
+      "VBLOCK_ESX_MGMT",
+      "VEM-UPLINK",
+      "PRODVLAN_254",
+      "PRODVLAN_255",
+      "Vblock_ESX_NFS-Fab-A",
+      "PRODVLAN_251",
+      "Unused_Or_Quarantine_Uplink",
+      "PRODVLAN_250",
+      "Unused_Or_Quarantine_Veth",
+      "PRODVLAN_220",
+      "PRODVLAN_253",
+      "PRODVLAN_252",
+      "Vblock_ESX_VMOTION",
+      "VMWARE7_VLAN256",
+      "VMWARE9_VLAN258",
+      "ISCC_HAG_PGMT_VLAN299",
+      "VMWARE8_VLAN257"
+    ],
+    "vcenter": "isccvcms11",
+    "vdatacenter": "iscc_prod"
+  },
+  "isccssz11": {
+    "uuid": "77 44 28 50 c4 19 e6 cb-8e 39 85 f8 cb b3 29 6e",
+    "portgroups": [
+      "VMDATA-UPLINK",
+      "VBLOCK_DMZ_VMWARE2",
+      "Unused_Or_Quarantine_Veth",
+      "VBLOCK_DMZ_ESX_BOOT",
+      "Unused_Or_Quarantine_Uplink",
+      "VBLOCK_DMZ_ESX_VMOTION",
+      "MGMT-UPLINK",
+      "VBLOCK_DMZ_ESX_MGMT",
+      "STORAGE-UPLINK",
+      "VBLOCK_DMZ_VMWARE1",
+      "VBLOCK_DMZ_NFS"
+    ],
+    "vcenter": "isccvcms11",
+    "vdatacenter": "iscc_prod"
+  }
+}

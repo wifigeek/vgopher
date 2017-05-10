@@ -1,0 +1,867 @@
+{
+  "timestamp": 1401078459,
+  "isceesx110-vms_isceesx1_class-b_lun08": {
+    "capacity": 5680631119872,
+    "free": 5671006240768,
+    "used": 9624879104,
+    "url": "ds:///vmfs/volumes/50007303-8f63d59e-a3b7-0025b53f0024/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx111-vms_isceesx1_class-b_lun09": {
+    "capacity": 5680631119872,
+    "free": 5625627017216,
+    "used": 55004102656,
+    "url": "ds:///vmfs/volumes/50006c45-164b3fb8-bcbf-0025b53f000c/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx18-vms_isceesx1_class-b_lun06": {
+    "capacity": 5680631119872,
+    "free": 2822717308928,
+    "used": 2857913810944,
+    "url": "ds:///vmfs/volumes/50006c5d-c56868ec-fe94-0025b53f001b/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx19-vms_isceesx1_class-b_lun07": {
+    "capacity": 5680631119872,
+    "free": 5342719115264,
+    "used": 337912004608,
+    "url": "ds:///vmfs/volumes/50006c1e-8c3f07b8-49c0-0025b53f0002/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_class-a_lun01": {
+    "capacity": 5680631119872,
+    "free": 3072772276224,
+    "used": 2607858843648,
+    "url": "ds:///vmfs/volumes/53037c60-a2d1e704-8353-0025b53f0026/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_class-a_lun02": {
+    "capacity": 5680631119872,
+    "free": 5541629788160,
+    "used": 139001331712,
+    "url": "ds:///vmfs/volumes/53037d1d-2c0efc62-da9a-0025b53f0026/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_class-a_lun03": {
+    "capacity": 5680631119872,
+    "free": 5521516003328,
+    "used": 159115116544,
+    "url": "ds:///vmfs/volumes/53037d4a-b47a5d30-62bb-0025b53f0026/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_class-a_lun04": {
+    "capacity": 5680631119872,
+    "free": 2030337785856,
+    "used": 3650293334016,
+    "url": "ds:///vmfs/volumes/53037db7-8fe0c534-c3eb-0025b53f0026/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_class-a_lun05": {
+    "capacity": 5680631119872,
+    "free": 5609979117568,
+    "used": 70652002304,
+    "url": "ds:///vmfs/volumes/53037de6-c7208270-484c-0025b53f0026/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_isceesx1a_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c515977-a1087f20-c7dc-0025b53f0027/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_isceesx1b_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c5e15bc-44d5e6de-baa5-0025b53f000f/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_isceesx1c_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c52c943-b6029ddd-ec1a-0025b53f0036/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_isceesx1d_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c50d3c2-a49665cb-44f2-0025b53f0001/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_isceesx1e_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c51157d-29d05dc4-0db1-0025b53f0039/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_isceesx1f_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c519d66-73819b6d-e87e-0025b53f0028/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_isceesx1g_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c51008e-e2065774-8aa0-0025b53f0018/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1_isceesx1h_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c50e321-8c771e00-2c3d-0025b53f0016/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_class-a_lun01": {
+    "capacity": 5680631119872,
+    "free": 5222002851840,
+    "used": 458628268032,
+    "url": "ds:///vmfs/volumes/53037f83-bd99d166-4d58-0025b53f0088/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_class-a_lun02": {
+    "capacity": 5680631119872,
+    "free": 3113372090368,
+    "used": 2567259029504,
+    "url": "ds:///vmfs/volumes/53037fab-f7558eda-ac10-0025b53f0088/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_class-a_lun03": {
+    "capacity": 5680631119872,
+    "free": 2317510246400,
+    "used": 3363120873472,
+    "url": "ds:///vmfs/volumes/53037fe7-5b39bad2-0fcb-0025b53f0088/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_class-a_lun04": {
+    "capacity": 5680631119872,
+    "free": 2154266886144,
+    "used": 3526364233728,
+    "url": "ds:///vmfs/volumes/53038034-ad1d116a-9484-0025b53f0088/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_class-a_lun05": {
+    "capacity": 5680631119872,
+    "free": 5259308040192,
+    "used": 421323079680,
+    "url": "ds:///vmfs/volumes/53038063-e317811e-6dce-0025b53f0088/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_isceesx3a_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c667f9c-ab01edc5-7cee-0025b53f0089/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_isceesx3b_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c519a23-7f2d823b-1762-0025b53f009e/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_isceesx3c_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c51961e-96416a89-fd39-0025b53f00b8/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_isceesx3d_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c51ada9-b05037a4-cbdb-0025b53f0090/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_isceesx3e_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c516c2b-eba653fb-7207-0025b53f00ab/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_isceesx3f_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c51d94b-df0d2708-20b7-0025b53f00b0/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_isceesx3g_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c5183db-27045ba9-b4d1-0025b53f0086/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3_isceesx3h_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/4c516c63-953f1c95-5c2e-0025b53f00a7/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_class-a_lun01": {
+    "capacity": 5680631119872,
+    "free": 5517601669120,
+    "used": 163029450752,
+    "url": "ds:///vmfs/volumes/5303818d-05297c94-b012-0025b53f0117/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_class-a_lun02": {
+    "capacity": 5680631119872,
+    "free": 4445384474624,
+    "used": 1235246645248,
+    "url": "ds:///vmfs/volumes/530381b7-05b00d4c-398d-0025b53f0117/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_class-a_lun03": {
+    "capacity": 5680631119872,
+    "free": 2776337743872,
+    "used": 2904293376000,
+    "url": "ds:///vmfs/volumes/530381f3-b6e4d5ce-20fd-0025b53f0117/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_class-a_lun04": {
+    "capacity": 5680631119872,
+    "free": 5424240656384,
+    "used": 256390463488,
+    "url": "ds:///vmfs/volumes/53038219-1a0eb25c-7efe-0025b53f0117/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_class-a_lun05": {
+    "capacity": 5680631119872,
+    "free": 5281992933376,
+    "used": 398638186496,
+    "url": "ds:///vmfs/volumes/5303825a-03e633fc-8257-0025b53f0117/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_isceesx5a_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/5106d10b-f7ad8135-94f3-0025b53f0116/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_isceesx5b_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/5106c808-dd3c7675-e233-0025b53f0109/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_isceesx5c_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/5106bd0a-21bbe91a-6480-0025b53f011f/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_isceesx5d_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/5106c35b-06ba40f8-7cfb-0025b53f00ec/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_isceesx5e_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/5106d579-2bd2e1d3-6626-0025b53f00f0/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_isceesx5f_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/5106c425-bb4537ec-cc36-0025b53f00e0/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_isceesx5g_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/5106c09c-a4696041-ba72-0025b53f0107/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5_isceesx5h_boot0": {
+    "capacity": 16106127360,
+    "free": 15160311808,
+    "used": 945815552,
+    "url": "ds:///vmfs/volumes/5106cacf-90b0d825-0a2a-0025b53f00fe/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_class-a_lun01": {
+    "capacity": 5680631119872,
+    "free": 4591603154944,
+    "used": 1089027964928,
+    "url": "ds:///vmfs/volumes/52e037b9-1c1e8fd0-0439-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_class-a_lun02": {
+    "capacity": 5680631119872,
+    "free": 4015470411776,
+    "used": 1665160708096,
+    "url": "ds:///vmfs/volumes/52e03833-1d2538f8-fa75-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_class-a_lun03": {
+    "capacity": 5680631119872,
+    "free": 5320103428096,
+    "used": 360527691776,
+    "url": "ds:///vmfs/volumes/52e0384d-6fed4084-21b8-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_class-a_lun04": {
+    "capacity": 5680631119872,
+    "free": 5679585689600,
+    "used": 1045430272,
+    "url": "ds:///vmfs/volumes/52e03872-1d82c0b4-6c8c-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_class-a_lun05": {
+    "capacity": 5680631119872,
+    "free": 5437635166208,
+    "used": 242995953664,
+    "url": "ds:///vmfs/volumes/52e03889-6a552d52-a0d4-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_class-b_lun01": {
+    "capacity": 5680631119872,
+    "free": 4236643401728,
+    "used": 1443987718144,
+    "url": "ds:///vmfs/volumes/52e036b7-fa0deed6-770f-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_class-b_lun02": {
+    "capacity": 5680631119872,
+    "free": 3792989847552,
+    "used": 1887641272320,
+    "url": "ds:///vmfs/volumes/52e03721-3446bb32-b612-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_class-b_lun03": {
+    "capacity": 5680631119872,
+    "free": 4163978133504,
+    "used": 1516652986368,
+    "url": "ds:///vmfs/volumes/52e0373a-f2322a52-2d56-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_class-b_lun04": {
+    "capacity": 5680631119872,
+    "free": 4704174080000,
+    "used": 976457039872,
+    "url": "ds:///vmfs/volumes/52e0375a-1506728e-b09d-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_class-b_lun05": {
+    "capacity": 5680631119872,
+    "free": 4050691031040,
+    "used": 1629940088832,
+    "url": "ds:///vmfs/volumes/52e03781-17efbe54-b076-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_isceesx7a_boot0": {
+    "capacity": 17179869184,
+    "free": 16185819136,
+    "used": 994050048,
+    "url": "ds:///vmfs/volumes/52d66676-538e9d94-2b0b-0025b53f0188/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_isceesx7b_boot0": {
+    "capacity": 17179869184,
+    "free": 16186867712,
+    "used": 993001472,
+    "url": "ds:///vmfs/volumes/52d64e9e-34c51937-1bdb-0025b53f0185/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_isceesx7c_boot0": {
+    "capacity": 17179869184,
+    "free": 16183721984,
+    "used": 996147200,
+    "url": "ds:///vmfs/volumes/52d66a5a-a77d0416-30fe-0025b53f0183/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_isceesx7d_boot0": {
+    "capacity": 17179869184,
+    "free": 16187916288,
+    "used": 991952896,
+    "url": "ds:///vmfs/volumes/52d64f6c-8527017d-a418-0025b53f018f/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_isceesx7e_boot0": {
+    "capacity": 17179869184,
+    "free": 16188964864,
+    "used": 990904320,
+    "url": "ds:///vmfs/volumes/52d64f26-284054fa-94d0-0025b53f019c/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_isceesx7f_boot0": {
+    "capacity": 17179869184,
+    "free": 16186867712,
+    "used": 993001472,
+    "url": "ds:///vmfs/volumes/52d666fb-3b7873b7-f5f6-0025b53f0199/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_isceesx7g_boot0": {
+    "capacity": 17179869184,
+    "free": 16187916288,
+    "used": 991952896,
+    "url": "ds:///vmfs/volumes/52d66678-445ff6de-04cf-0025b53f0190/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7_isceesx7h_boot0": {
+    "capacity": 17179869184,
+    "free": 16188964864,
+    "used": 990904320,
+    "url": "ds:///vmfs/volumes/52d64edd-a1c2325a-41c8-0025b53f01b7/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "migration": {
+    "capacity": 4398046511104,
+    "free": 4398022754304,
+    "used": 23756800,
+    "url": "ds:///vmfs/volumes/72cae688-c908570a/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "templates_nfs001": {
+    "capacity": 3298534883328,
+    "free": 3066257145856,
+    "used": 232277737472,
+    "url": "ds:///vmfs/volumes/83cc4159-aa8a1d2c/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun12": {
+    "capacity": 5680631119872,
+    "free": 5229068156928,
+    "used": 451562962944,
+    "url": "ds:///vmfs/volumes/5006eff1-0902b92c-3153-0025b53f003a/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun13": {
+    "capacity": 5680631119872,
+    "free": 5667224027136,
+    "used": 13407092736,
+    "url": "ds:///vmfs/volumes/5006f040-f0450962-61b2-0025b53f003a/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun14": {
+    "capacity": 5680631119872,
+    "free": 5641429057536,
+    "used": 39202062336,
+    "url": "ds:///vmfs/volumes/5006efb2-42f1b766-acfa-0025b53f000c/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun15": {
+    "capacity": 5680631119872,
+    "free": 3909263294464,
+    "used": 1771367825408,
+    "url": "ds:///vmfs/volumes/5006ef9e-f0a7bee2-c44c-0025b53f000c/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun16": {
+    "capacity": 5680631119872,
+    "free": 5582973042688,
+    "used": 97658077184,
+    "url": "ds:///vmfs/volumes/5006f024-476c228a-afe9-0025b53f0015/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun17": {
+    "capacity": 5680631119872,
+    "free": 5007209398272,
+    "used": 673421721600,
+    "url": "ds:///vmfs/volumes/50081bc0-602b6f9a-0410-0025b53f0024/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun18": {
+    "capacity": 5680631119872,
+    "free": 4623487205376,
+    "used": 1057143914496,
+    "url": "ds:///vmfs/volumes/50083d3a-38e7db32-8e7a-0025b53f003a/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun19": {
+    "capacity": 5680631119872,
+    "free": 4375032365056,
+    "used": 1305598754816,
+    "url": "ds:///vmfs/volumes/50083f5d-54523004-f4d9-0025b53f0015/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun20": {
+    "capacity": 5680631119872,
+    "free": 4444540370944,
+    "used": 1236090748928,
+    "url": "ds:///vmfs/volumes/50083d40-68121f50-9303-0025b53f001b/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun30": {
+    "capacity": 5680631119872,
+    "free": 5263680602112,
+    "used": 416950517760,
+    "url": "ds:///vmfs/volumes/508af6ca-22f836aa-66ab-0025b53f0002/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun36": {
+    "capacity": 5680631119872,
+    "free": 5623777329152,
+    "used": 56853790720,
+    "url": "ds:///vmfs/volumes/508afd35-f0633fcc-bbf5-0025b53f0024/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun38": {
+    "capacity": 5680631119872,
+    "free": 5606849118208,
+    "used": 73782001664,
+    "url": "ds:///vmfs/volumes/508af6b1-de798d38-44f8-0025b53f0035/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx1_class-b_lun39": {
+    "capacity": 5680631119872,
+    "free": 5679582543872,
+    "used": 1048576000,
+    "url": "ds:///vmfs/volumes/508af861-9fe2cde6-e69b-0025b53f0024/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx3_class-b_lun06": {
+    "capacity": 5680631119872,
+    "free": 5050747322368,
+    "used": 629883797504,
+    "url": "ds:///vmfs/volumes/508ee364-7ba501de-d7d3-0025b53f00a3/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx3_class-b_lun07": {
+    "capacity": 5680631119872,
+    "free": 5051441479680,
+    "used": 629189640192,
+    "url": "ds:///vmfs/volumes/508ee41f-d255f4b4-542c-0025b53f008c/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx3_class-b_lun08": {
+    "capacity": 5680631119872,
+    "free": 4839403683840,
+    "used": 841227436032,
+    "url": "ds:///vmfs/volumes/50992cd0-68d0a8cc-e204-0025b53f008c/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx3_class-b_lun09": {
+    "capacity": 5680631119872,
+    "free": 3984581459968,
+    "used": 1696049659904,
+    "url": "ds:///vmfs/volumes/508ee342-a013fc38-4a8d-0025b53f009b/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx3_class-b_lun10": {
+    "capacity": 5680631119872,
+    "free": 5215703007232,
+    "used": 464928112640,
+    "url": "ds:///vmfs/volumes/508ee364-6b6acfbc-8618-0025b53f009b/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx3_class-b_lun11": {
+    "capacity": 5680631119872,
+    "free": 5184713392128,
+    "used": 495917727744,
+    "url": "ds:///vmfs/volumes/51cb14f8-de535772-9240-0025b53f008a/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx3_class-b_lun12": {
+    "capacity": 5680631119872,
+    "free": 5479766949888,
+    "used": 200864169984,
+    "url": "ds:///vmfs/volumes/51cb1572-3c0b935c-1cfe-0025b53f008a/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx3_class-b_lun35": {
+    "capacity": 5680631119872,
+    "free": 5566942412800,
+    "used": 113688707072,
+    "url": "ds:///vmfs/volumes/508ee436-957452e6-794f-0025b53f008c/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx3_class-b_lun36": {
+    "capacity": 5680631119872,
+    "free": 5647289548800,
+    "used": 33341571072,
+    "url": "ds:///vmfs/volumes/50992713-1fdf8098-1d09-0025b53f008c/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx3_class-b_lun38": {
+    "capacity": 5147786739712,
+    "free": 3684698161152,
+    "used": 1463088578560,
+    "url": "ds:///vmfs/volumes/50992654-418ff546-916b-0025b53f008c/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx5_class-b_lun02": {
+    "capacity": 5680631119872,
+    "free": 4257286717440,
+    "used": 1423344402432,
+    "url": "ds:///vmfs/volumes/51cb0a0e-845fce1a-84f8-0025b53f0112/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx5_class-b_lun03": {
+    "capacity": 5680631119872,
+    "free": 3898009976832,
+    "used": 1782621143040,
+    "url": "ds:///vmfs/volumes/51cb0c9f-cdb1a012-5893-0025b53f00e6/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx5_class-b_lun04": {
+    "capacity": 5680631119872,
+    "free": 4709123358720,
+    "used": 971507761152,
+    "url": "ds:///vmfs/volumes/51cb0cdb-2443ce66-63e5-0025b53f0104/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx5_class-b_lun05": {
+    "capacity": 5680631119872,
+    "free": 4123989639168,
+    "used": 1556641480704,
+    "url": "ds:///vmfs/volumes/51cb0d3b-247d4ecc-e424-0025b53f00e8/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx5_class-b_lun06": {
+    "capacity": 5680631119872,
+    "free": 4596272463872,
+    "used": 1084358656000,
+    "url": "ds:///vmfs/volumes/51cb0d7e-b80a2536-2e70-0025b53f00e8/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "vms_isceesx5_class-b_lun1": {
+    "capacity": 5680631119872,
+    "free": 5022846812160,
+    "used": 657784307712,
+    "url": "ds:///vmfs/volumes/51095f52-3126f012-02f6-0025b53f0117/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx1-templates": {
+    "capacity": 516201381888,
+    "free": 488810479616,
+    "used": 27390902272,
+    "url": "ds:///vmfs/volumes/5345afb5-a4529b4a-c258-0025b53f0026/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx3-templates": {
+    "capacity": 516201381888,
+    "free": 488807333888,
+    "used": 27394048000,
+    "url": "ds:///vmfs/volumes/5345b292-28522676-9f77-0025b53f0088/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx5-templates": {
+    "capacity": 516201381888,
+    "free": 488808382464,
+    "used": 27392999424,
+    "url": "ds:///vmfs/volumes/5345b461-b4b4487e-e78b-0025b53f00ff/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  },
+  "isceesx7-templates": {
+    "capacity": 516201381888,
+    "free": 488805236736,
+    "used": 27396145152,
+    "url": "ds:///vmfs/volumes/5345b4b7-b499b1fc-9ede-0025b53f0188/",
+    "accessible": true,
+    "vcenter": "vcsa3t1",
+    "vdatacenter": "isce_test"
+  }
+}

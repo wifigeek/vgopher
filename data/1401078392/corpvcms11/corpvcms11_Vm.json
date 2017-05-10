@@ -1,0 +1,591 @@
+{
+  "timestamp": 1401078456,
+  "corpisilon11_3.0": {
+    "name": "corpisilon11_3.0",
+    "overallstatus": "gray",
+    "numcpu": 2,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.252.164.39",
+    "os": "CentOS 4/5/6 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsSupportedOld",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+      "/": [
+        1212022784,
+        2432610304
+      ],
+      "/boot": [
+        226740224,
+        253869056
+      ],
+      "/datastore": [
+        67447078912,
+        67635785728
+      ]
+    },
+    "host": "corpesxamp11",
+    "locationid": "564da7d9-a871-3911-55e1-aff5d460f1ab",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 6870712778,
+    "unsharedstorage": 6870712778
+  },
+  "corpvcsso11": {
+    "name": "corpvcsso11",
+    "overallstatus": "gray",
+    "numcpu": 4,
+    "memoryallocated": 8192,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.252.164.73",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsCurrent",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+      "C:\\": [
+        38080802816,
+        64422408192
+      ]
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d90f8-c75d-366e-1ec1-0e18221614dc",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 47170729567,
+    "unsharedstorage": 47170729567
+  },
+  "ss0t2-2": {
+    "name": "ss0t2-2",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d6ec4-99af-167b-7e6d-1b2b66bd3852",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 544814328,
+    "unsharedstorage": 544814328
+  },
+  "corpss12-1": {
+    "name": "corpss12-1",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d3d75-c89d-4311-4df9-4644ac4f1ac4",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 1963242013,
+    "unsharedstorage": 1963242013
+  },
+  "ss0t2-1": {
+    "name": "ss0t2-1",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d80a0-92b6-18f4-655c-2d582973ec9f",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 474389288,
+    "unsharedstorage": 474389288
+  },
+  "corpvums11": {
+    "name": "corpvums11",
+    "overallstatus": "gray",
+    "numcpu": 2,
+    "memoryallocated": 4096,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.252.164.24",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsCurrent",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+      "D:\\": [
+        36864069632,
+        96633614336
+      ],
+      "C:\\": [
+        30083076096,
+        64317550592
+      ]
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d4338-bc40-dc06-261e-1294473f8e68",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 113314505925,
+    "unsharedstorage": 113314505925
+  },
+  "corpdcnm11": {
+    "name": "corpdcnm11",
+    "overallstatus": "gray",
+    "numcpu": 2,
+    "memoryallocated": 8192,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.252.164.58",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsCurrent",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+      "C:\\": [
+        39134240768,
+        64422408192
+      ],
+      "E:\\": [
+        35511873536,
+        53683941376
+      ]
+    },
+    "host": "corpesxamp11",
+    "locationid": "564dabda-1c79-f493-63ca-a2bdb432717a",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 50788964661,
+    "unsharedstorage": 50788964661
+  },
+  "corpssz11-2": {
+    "name": "corpssz11-2",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d8b03-4782-ef73-f3d8-5165e6171106",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 875517946,
+    "unsharedstorage": 875517946
+  },
+  "ss0t3-1": {
+    "name": "ss0t3-1",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d7710-1a84-7c5b-f39b-ce0eb481adcf",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 552128746,
+    "unsharedstorage": 552128746
+  },
+  "ss0t3-2": {
+    "name": "ss0t3-2",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d5ad1-6c86-407a-5fa9-324d02d889d3",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 636124570,
+    "unsharedstorage": 636124570
+  },
+  "corpss13-1": {
+    "name": "corpss13-1",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d1091-31ed-6f53-658d-36726432b188",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 559170326,
+    "unsharedstorage": 559170326
+  },
+  "corparms11": {
+    "name": "corparms11",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 16384,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.252.164.29",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsCurrent",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+      "D:\\": [
+        113485070336,
+        128845869056
+      ],
+      "C:\\": [
+        40419373056,
+        85791338496
+      ]
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d9f4b-6681-08a6-3d31-03df68a7e6da",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 77858224478,
+    "unsharedstorage": 77858224478
+  },
+  "ss0t4-2": {
+    "name": "ss0t4-2",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564dac81-59d4-d711-66d7-c62b895a88fd",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 524891387,
+    "unsharedstorage": 524891387
+  },
+  "ss0t4-1": {
+    "name": "ss0t4-1",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564db960-3c6c-9770-1849-699b7e7d71c5",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 481729443,
+    "unsharedstorage": 481729443
+  },
+  "corpuims11": {
+    "name": "corpuims11",
+    "overallstatus": "gray",
+    "numcpu": 2,
+    "memoryallocated": 16384,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsUnmanaged",
+    "powerstate": "poweredOff",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 82405492440,
+    "unsharedstorage": 82405492440
+  },
+  "corpvcms11": {
+    "name": "corpvcms11",
+    "overallstatus": "gray",
+    "numcpu": 4,
+    "memoryallocated": 12288,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.252.164.23",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsCurrent",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+      "D:\\": [
+        59083038720,
+        64421359616
+      ],
+      "C:\\": [
+        19864727552,
+        85791338496
+      ]
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d7155-c03e-4c9d-4239-b9c88f06a970",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 100625998246,
+    "unsharedstorage": 100625998246
+  },
+  "corparms12": {
+    "name": "corparms12",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 16384,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.252.164.30",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsCurrent",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+      "C:\\": [
+        31036944384,
+        64422408192
+      ],
+      "D:\\": [
+        126214766592,
+        128845869056
+      ]
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d0745-865b-3459-9ff4-c203117e8336",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 38507706820,
+    "unsharedstorage": 38507706820
+  },
+  "ss0t1-1": {
+    "name": "ss0t1-1",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d931b-48aa-2bc4-0f42-1769f76a9d50",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 567926210,
+    "unsharedstorage": 567926210
+  },
+  "corpss11-1": {
+    "name": "corpss11-1",
+    "overallstatus": "gray",
+    "numcpu": 1,
+    "memoryallocated": 3072,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": null,
+    "os": null,
+    "vmwaretools_status": "guestToolsNotRunning",
+    "vmwaretools_version": "guestToolsNotInstalled",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d6b65-8989-b109-506b-0f1b4425a9dc",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 2165374304,
+    "unsharedstorage": 2165374304
+  },
+  "corpvcdb11": {
+    "name": "corpvcdb11",
+    "overallstatus": "gray",
+    "numcpu": 4,
+    "memoryallocated": 12288,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.252.164.28",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsCurrent",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+      "C:\\": [
+        43521310720,
+        80422629376
+      ],
+      "D:\\": [
+        39871012864,
+        42946523136
+      ],
+      "H:\\": [
+        343061233664,
+        343594172416
+      ],
+      "I:\\": [
+        61486006272,
+        171795480576
+      ],
+      "G:\\": [
+        110049296384,
+        171795480576
+      ]
+    },
+    "host": "corpesxamp11",
+    "locationid": "564dc63d-6b9f-db3a-9a59-ba0c2cfa6e18",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 573677235519,
+    "unsharedstorage": 573677235519
+  },
+  "corpvcinv11": {
+    "name": "corpvcinv11",
+    "overallstatus": "gray",
+    "numcpu": 4,
+    "memoryallocated": 14336,
+    "hostmemoryusage": 0,
+    "guestmemoryusage": 0,
+    "balloonedmemory": 0,
+    "ipaddr": "10.252.164.74",
+    "os": "Microsoft Windows Server 2008 R2 (64-bit)",
+    "vmwaretools_status": "guestToolsRunning",
+    "vmwaretools_version": "guestToolsCurrent",
+    "powerstate": "poweredOn",
+    "uptime": 0,
+    "guestdisk": {
+      "C:\\": [
+        66163474432,
+        171795542016
+      ],
+      "D:\\": [
+        64325275648,
+        64421359616
+      ]
+    },
+    "host": "corpesxamp11",
+    "locationid": "564d467b-54ad-f405-55b5-1b1d5d9772ea",
+    "portgroup": null,
+    "vcenter": "corpvcms11",
+    "vdatacenter": "corpesx1",
+    "usedstorage": 186837016307,
+    "unsharedstorage": 186837016307
+  }
+}
