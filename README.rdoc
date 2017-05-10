@@ -1,6 +1,6 @@
 =vgopher v0.1
 
-This is written in 2014 for the purposes of gathering information from a large number of VMware ESXi hosts. This was to suppliment stats gathered from nagios (which would perodically crash due to the amount of info being processed). This information was then to be used in creation of automation scripts triggered by nagios alerts. Also, this seemed like a good enough reason to start learning how to actually create an application.
+This is written in 2014 for the purposes of gathering information from a large number of VMware ESXi hosts. This was to suppliment stats gathered from nagios (which would perodically crash due to the amount of info being processed). This information was then to be used in creation of automation scripts triggered by nagios alerts. Also, this seemed like a good enough reason to start learning how to actually create an application using Ruby.
 
 While needing plenty of refactoring (and documentation), there are some potentional useful bits of code in here. 
 
