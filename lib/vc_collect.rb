@@ -6,6 +6,8 @@ require 'util'
 require 'fileutils'
 
 # pull data from vcenter api, store data in redis
+# ideally this wouldn't be 700 frackin lines. 
+# but hey, we were learneding. 
 class VcenterConnect
 include Logging
 
@@ -244,6 +246,8 @@ include Logging
 
 
 	end
+
+
 
 	def dvs_output
 		output = Hash.new { |hash, key| hash[key] = [] }
