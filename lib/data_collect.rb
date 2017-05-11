@@ -18,7 +18,6 @@ class DataCollect
 	def connect_to_vc
 			begin
 				@vim = RbVmomi::VIM.connect :host => @vchost, :port => @vcport, :user => @vcuser, :password => @vcpassword, :insecure => true
-				#{}"127.0.0.1", "2222", "MGMT\\STVCENTR", "fpti@g5wNVzflW"
 			rescue => exc
 				p exc
 				logger.error(exc)

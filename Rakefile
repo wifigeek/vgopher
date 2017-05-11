@@ -35,6 +35,6 @@ end
 
 Gokdok::Dokker.new do |gd|
   gd.remote_path = '' # Put into the root directory
-  gd.repo_url = 'git@github.com:syncopatedtech/vgopher.git'
-  gd.doc_home = '#{APP_ROOT}/doc'
+  gd.repo_url = "git@github.com:syncopatedtech/vgopher.git"
+  gd.doc_home = "#{APP_ROOT}/doc"
 end
