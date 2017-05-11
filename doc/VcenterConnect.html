@@ -119,7 +119,8 @@
 
   <section class="description">
     
-<p>pull data from vcenter api, store data in redis</p>
+<p>pull data from vcenter api, store data in redis ideally this wouldn&#39;t
+be 700 frackin lines.  but hey, we were learneding.</p>
 
   </section>
 
@@ -161,7 +162,7 @@
 
           
           <div class="method-source-code" id="get_vcenter_data-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 70</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 72</span>
 <span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">get_vcenter_data</span>
   <span class="ruby-identifier">new</span>.<span class="ruby-identifier">get_vcenter_data</span>
 <span class="ruby-keyword">end</span></pre>
@@ -194,7 +195,7 @@
 
           
           <div class="method-source-code" id="new-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 12</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 14</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>
   <span class="ruby-ivar">@vms</span> = {}
   <span class="ruby-ivar">@dvs</span> = {}
@@ -235,7 +236,7 @@
 
           
           <div class="method-source-code" id="to_vcenter-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 24</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 26</span>
 <span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">to_vcenter</span>(<span class="ruby-identifier">vdc</span>,<span class="ruby-identifier">vc</span>,<span class="ruby-identifier">vc_user</span>,<span class="ruby-identifier">vc_password</span>)
   <span class="ruby-identifier">new</span>.<span class="ruby-identifier">to_vcenter</span>(<span class="ruby-identifier">vdc</span>,<span class="ruby-identifier">vc</span>,<span class="ruby-identifier">vc_user</span>,<span class="ruby-identifier">vc_password</span>)
 <span class="ruby-keyword">end</span></pre>
@@ -276,7 +277,7 @@
 
           
           <div class="method-source-code" id="build_tree-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 475</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 479</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">build_tree</span>(<span class="ruby-identifier">dvpg</span>, <span class="ruby-identifier">dvs</span>, <span class="ruby-identifier">datastores</span>, <span class="ruby-identifier">clusters</span>, <span class="ruby-identifier">hosts</span>, <span class="ruby-identifier">vms</span>, <span class="ruby-identifier">vcenter_name</span>)
   <span class="ruby-identifier">logger</span>.<span class="ruby-identifier">debug</span> <span class="ruby-string">&quot;filling dvs values&quot;</span>
   <span class="ruby-identifier">dvs</span>.<span class="ruby-identifier">values</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">vss</span><span class="ruby-operator">|</span>
@@ -566,7 +567,7 @@
 
           
           <div class="method-source-code" id="cluster_output-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 287</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 291</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">cluster_output</span>
   <span class="ruby-identifier">output</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">hash</span>, <span class="ruby-identifier">key</span><span class="ruby-operator">|</span> <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">key</span>] = [] }
   <span class="ruby-identifier">output</span>[<span class="ruby-string">&#39;timestamp&#39;</span>] = <span class="ruby-ivar">@timestamp</span>
@@ -618,7 +619,7 @@
 
           
           <div class="method-source-code" id="datastore_output-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 265</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 269</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">datastore_output</span>
   <span class="ruby-identifier">output</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">hash</span>, <span class="ruby-identifier">key</span><span class="ruby-operator">|</span> <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">key</span>] = [] }
   <span class="ruby-identifier">output</span>[<span class="ruby-string">&#39;timestamp&#39;</span>] = <span class="ruby-ivar">@timestamp</span>
@@ -669,7 +670,7 @@
 
           
           <div class="method-source-code" id="dvs_output-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 248</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 252</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">dvs_output</span>
   <span class="ruby-identifier">output</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">hash</span>, <span class="ruby-identifier">key</span><span class="ruby-operator">|</span> <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">key</span>] = [] }
   <span class="ruby-identifier">output</span>[<span class="ruby-string">&#39;timestamp&#39;</span>] = <span class="ruby-ivar">@timestamp</span>
@@ -715,7 +716,7 @@
 
           
           <div class="method-source-code" id="get_vcenter_data-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 75</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 77</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">get_vcenter_data</span>
   <span class="ruby-comment"># properties to pull from managed data objects</span>
   <span class="ruby-identifier">cluster_props</span> = [ <span class="ruby-string">&#39;name&#39;</span>, <span class="ruby-string">&#39;overallStatus&#39;</span>, <span class="ruby-string">&#39;summary.effectiveCpu&#39;</span>, <span class="ruby-string">&#39;summary.effectiveMemory&#39;</span>, <span class="ruby-string">&#39;summary.numEffectiveHosts&#39;</span>, <span class="ruby-string">&#39;summary.numHosts&#39;</span>,
@@ -917,7 +918,7 @@
 
           
           <div class="method-source-code" id="hostsystem_output-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 310</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 314</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">hostsystem_output</span>
   <span class="ruby-identifier">output</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">hash</span>, <span class="ruby-identifier">key</span><span class="ruby-operator">|</span> <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">key</span>] = [] }
   <span class="ruby-identifier">output</span>[<span class="ruby-string">&#39;timestamp&#39;</span>] = <span class="ruby-ivar">@timestamp</span>
@@ -1033,7 +1034,7 @@
 
           
           <div class="method-source-code" id="output-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 465</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 469</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">output</span>
   <span class="ruby-identifier">dvs_output</span>
   <span class="ruby-identifier">virt_machine_output</span>
@@ -1071,7 +1072,7 @@ from isce1</p>
 
           
           <div class="method-source-code" id="to_vcenter-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 29</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 31</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">to_vcenter</span>(<span class="ruby-identifier">vdc</span>,<span class="ruby-identifier">vc</span>,<span class="ruby-identifier">vc_user</span>,<span class="ruby-identifier">vc_password</span>)
     <span class="ruby-ivar">@vdc1</span> = <span class="ruby-identifier">vdc</span>
     <span class="ruby-ivar">@vc1</span> = <span class="ruby-identifier">vc</span>.<span class="ruby-identifier">partition</span>(<span class="ruby-string">&#39;.&#39;</span>).<span class="ruby-identifier">shift</span>.<span class="ruby-identifier">downcase</span>
@@ -1141,7 +1142,7 @@ from isce1</p>
 
           
           <div class="method-source-code" id="virt_machine_output-source">
-            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 397</span>
+            <pre><span class="ruby-comment"># File lib/vc_collect.rb, line 401</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">virt_machine_output</span>
   <span class="ruby-identifier">output</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">hash</span>, <span class="ruby-identifier">key</span><span class="ruby-operator">|</span> <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">key</span>] = [] }
   <span class="ruby-identifier">output</span>[<span class="ruby-string">&#39;timestamp&#39;</span>] = <span class="ruby-ivar">@timestamp</span>

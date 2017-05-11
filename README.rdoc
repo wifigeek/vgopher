@@ -1,12 +1,12 @@
 =vgopher v0.1
 
-This is written in 2014 for the purposes of gathering information from a large number of VMware ESXi hosts. This was to suppliment stats gathered from nagios (which would perodically crash due to the amount of info being processed). This information was then to be used in creation of automation scripts triggered by nagios alerts. Also, this seemed like a good enough reason to start learning how to actually create an application using Ruby.
+This is written in 2014 for the purposes of gathering information from a large number of VMware ESXi hosts. This was to supplement stats gathered from nagios (which would periodically crash due to the amount of info being processed). This information was then to be used in creation of automation scripts triggered by nagios alerts. Also, this seemed like a good enough reason to start learning how to actually create an application using Ruby. Admittedly, there is a lot of this code I don't even remember writing. I do however, remember being pleased with the results, so despite how it looks to me now, it works.
 
-While needing plenty of refactoring (and documentation), there are some potentional useful bits of code in here. 
+While needing plenty of refactoring (and documentation), there are some potential useful bits of code in here. 
 
 Written in Ruby, with an api using Sinatra. 
 
-Any questions (well ideally ones pertaining to this, but I suppose anything really) can be directed to syncopatedtech@gmail.com 
+Any questions (ideally ones pertaining to this, but I suppose anything really) can be directed to syncopatedtech@gmail.com 
 
 ==overview & usage
 
@@ -38,6 +38,6 @@ An attribute may not be followed by anything other than an attribute;
 
 		e.g. api_host:9494/example_client/host/host01/sensors/vms/mule => no worky
 
-Avaiable object buckets: 
+Available object buckets: 
 		api_host/example_client/(vdc|cluster|host|vnet|vds|vm)
 

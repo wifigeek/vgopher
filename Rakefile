@@ -11,7 +11,7 @@ require 'gokdok'
 
 Rake::RDocTask.new do |rdoc|
   rdoc.title    = "vgopher v0.1"
-  rdoc.rdoc_dir = "doc"
+  rdoc.rdoc_dir = "#{APP_ROOT}/doc"
     rdoc.options += [
       '-w', '2',
       '-H',
@@ -31,6 +31,7 @@ Rake::RDocTask.new do |rdoc|
       rdoc.rdoc_files.include 'lib/vc_collect.rb'
 
 end
+
 
 Gokdok::Dokker.new do |gd|
   gd.remote_path = '' # Put into the root directory
